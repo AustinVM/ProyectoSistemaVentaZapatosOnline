@@ -1,0 +1,150 @@
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\appsettings.Development.json
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\appsettings.json
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Presentacion.staticwebassets.runtime.json
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Presentacion.exe
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Presentacion.deps.json
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Presentacion.runtimeconfig.json
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Presentacion.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Presentacion.pdb
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Azure.Core.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Azure.Identity.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Humanizer.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.CodeDom.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.Drawing.Common.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.Memory.Data.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.Runtime.Caching.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.Security.Permissions.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.Windows.Extensions.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.csproj.AssemblyReference.cache
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.AssemblyInfoInputs.cache
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.AssemblyInfo.cs
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.csproj.CoreCompileInputs.cache
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.MvcApplicationPartsAssemblyInfo.cache
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.RazorAssemblyInfo.cache
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.RazorAssemblyInfo.cs
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\staticwebassets\msbuild.Presentacion.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\staticwebassets\msbuild.build.Presentacion.props
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Presentacion.props
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Presentacion.props
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\staticwebassets.pack.json
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\staticwebassets.build.json
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\staticwebassets.development.json
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\scopedcss\bundle\Presentacion.styles.css
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\scopedcss\projectbundle\Presentacion.bundle.scp.css
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.csproj.CopyComplete
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\refint\Presentacion.dll
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.pdb
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.genruntimeconfig.cache
+E:\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\ref\Presentacion.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\appsettings.json
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Presentacion.staticwebassets.runtime.json
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Presentacion.exe
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Presentacion.deps.json
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Presentacion.runtimeconfig.json
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Presentacion.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Presentacion.pdb
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.csproj.AssemblyReference.cache
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.AssemblyInfoInputs.cache
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.AssemblyInfo.cs
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.RazorAssemblyInfo.cache
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.RazorAssemblyInfo.cs
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\staticwebassets\msbuild.Presentacion.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\staticwebassets\msbuild.build.Presentacion.props
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Presentacion.props
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Presentacion.props
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\scopedcss\bundle\Presentacion.styles.css
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\scopedcss\projectbundle\Presentacion.bundle.scp.css
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.csproj.CopyComplete
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\refint\Presentacion.dll
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.pdb
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\Presentacion.genruntimeconfig.cache
+C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Web\Presentacion\obj\Debug\net7.0\ref\Presentacion.dll

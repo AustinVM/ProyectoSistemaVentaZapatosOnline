@@ -1,6 +1,6 @@
 ﻿namespace CapaPresentacion
 {
-    partial class Frm_Login
+    partial class FrmLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -36,6 +36,7 @@
             BtnIngresar = new Button();
             CmbRol = new ComboBox();
             label3 = new Label();
+            linkLabel1 = new LinkLabel();
             SuspendLayout();
             // 
             // panel1
@@ -136,12 +137,26 @@
             label3.TabIndex = 7;
             label3.Text = "LOGIN";
             // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Cursor = Cursors.Hand;
+            linkLabel1.LinkBehavior = LinkBehavior.NeverUnderline;
+            linkLabel1.LinkColor = Color.Gray;
+            linkLabel1.Location = new Point(256, 306);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(161, 15);
+            linkLabel1.TabIndex = 8;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "¿Has olvidado tu contraseña?";
+            // 
             // Frm_Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(15, 15, 15);
             ClientSize = new Size(780, 330);
+            Controls.Add(linkLabel1);
             Controls.Add(label3);
             Controls.Add(CmbRol);
             Controls.Add(BtnIngresar);
@@ -169,5 +184,6 @@
         private Button BtnIngresar;
         private ComboBox CmbRol;
         private Label label3;
+        private LinkLabel linkLabel1;
     }
 }

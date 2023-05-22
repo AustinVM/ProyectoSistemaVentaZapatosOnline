@@ -49,20 +49,37 @@ C:\Users\Sena CSET\Documents\Proyecto_TiendaZapatosOnline-main\CapaNegocios\obj\
 C:\Users\Sena CSET\Documents\Proyecto_TiendaZapatosOnline-main\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
 C:\Users\Sena CSET\Documents\Proyecto_TiendaZapatosOnline-main\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
 C:\Users\Sena CSET\Documents\Proyecto_TiendaZapatosOnline-main\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.deps.json
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.dll
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.pdb
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaDatos.dll
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaEntidades.dll
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaDatos.pdb
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaEntidades.pdb
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.AssemblyReference.cache
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfoInputs.cache
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfo.cs
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CoreCompileInputs.cache
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CopyComplete
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.dll
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
-C:\Users\Sena CSET\Documents\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.deps.json
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.dll
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.pdb
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaEntidades.dll
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaEntidades.pdb
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.AssemblyReference.cache
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfoInputs.cache
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfo.cs
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CopyComplete
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.dll
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
+C:\Users\Sena CSET\Desktop\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.deps.json
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.dll
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.pdb
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaEntidades.dll
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaEntidades.pdb
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.AssemblyReference.cache
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfoInputs.cache
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfo.cs
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CopyComplete
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.dll
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
+C:\Users\villa\OneDrive\Documentos\Proyecto PagWeb\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll

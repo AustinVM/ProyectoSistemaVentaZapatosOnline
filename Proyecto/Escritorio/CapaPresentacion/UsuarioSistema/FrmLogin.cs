@@ -4,12 +4,12 @@ using CapaPresentacion.Global;
 
 namespace CapaPresentacion
 {
-    public partial class Frm_Login : Form
+    public partial class FrmLogin : Form
     {
         private readonly Cn_Usuario oCn_Usuario = new();
         private readonly Cn_Rol oCn_Rol = new();
 
-        public Frm_Login()
+        public FrmLogin()
         {
             InitializeComponent();
         }
@@ -18,9 +18,9 @@ namespace CapaPresentacion
 
         private void ListarRoles()
         {
-            CmbRol.DataSource = oCn_Rol.ConsultarRol();
-            CmbRol.ValueMember = "Id";
-            CmbRol.DisplayMember = "Nombre";
+            //CmbRol.DataSource = oCn_Rol.ConsultarRol();
+            //CmbRol.ValueMember = "Id";
+            //CmbRol.DisplayMember = "Nombre";
         }
 
         #endregion
@@ -51,7 +51,7 @@ namespace CapaPresentacion
                         case true:
                             Cp_VarGlobal.NombreUsuario = TxtUsuario.Text;
                             Cp_VarGlobal.idRolUsuario = Convert.ToInt32(CmbRol.SelectedValue);
-                            Frm_MenuPrincipal MenPrin = new();
+                            FrmMenuPrincipal MenPrin = new();
                             MenPrin.Show();
                             this.Hide();
                             break;

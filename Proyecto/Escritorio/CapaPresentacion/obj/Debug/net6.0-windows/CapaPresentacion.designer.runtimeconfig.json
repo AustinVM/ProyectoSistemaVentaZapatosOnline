@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Sena CSET\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Sena CSET\\.nuget\\packages"
+      "C:\\Users\\villa\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\villa\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

@@ -19,8 +19,8 @@ namespace CapaPresentacion
         private void ListarRoles()
         {
             CmbRol.DataSource = oCn_Rol.ConsultarRol();
-            CmbRol.ValueMember = "Id";
             CmbRol.DisplayMember = "Nombre";
+            CmbRol.ValueMember = "Id";
         }
 
         private void Ingresar()
@@ -58,6 +58,42 @@ namespace CapaPresentacion
 
         #endregion
 
+        #region PlaceHolder
+
+        private void TxtUsuario_MouseEnter(object sender, EventArgs e)
+        {
+            if (TxtUsuario.Text == "USUARIO")
+            {
+                TxtUsuario.Text = "";
+            }
+        }
+
+        private void TxtUsuario_MouseLeave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(TxtUsuario.Text))
+            {
+                TxtUsuario.Text = "USUARIO";
+            }
+        }
+
+        private void TxtContrasenia_MouseEnter(object sender, EventArgs e)
+        {
+            if (TxtUsuario.Text == "CONTRASEÑA")
+            {
+                TxtUsuario.Text = "";
+            }
+        }
+
+        private void TxtContrasenia_MouseLeave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(TxtContrasenia.Text))
+            {
+                TxtContrasenia.Text = "CONTRASEÑA";
+            }
+        }
+
+        #endregion
+
         private void Login_Load(object sender, EventArgs e)
         {
             ListarRoles();
@@ -66,6 +102,11 @@ namespace CapaPresentacion
         private void BtnIngresar_Click(object sender, EventArgs e)
         {
             Ingresar();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }

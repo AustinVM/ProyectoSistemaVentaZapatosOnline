@@ -15,8 +15,7 @@ namespace CapaNegocios.UsuarioSistema
 
         public DataTable ConsultarRol()
         {
-            DataTable tabla = oCd_rol.ConsultarRol();
-            return tabla;
+            return oCd_rol.ConsultarRol();
         }
 
         public void ActualizarRol(Ce_Rol ActualizarRol)

@@ -44,7 +44,7 @@ namespace CapaDatos.UsuarioSistema
                     conex.Open();
                     using (SqlCommand cmd = new SqlCommand("SP_ConsultarRol", conex))
                     {
-                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.CommandType = CommandType.Text;
                         SqlDataReader leer = cmd.ExecuteReader();
                         tabla.Load(leer);
                     }

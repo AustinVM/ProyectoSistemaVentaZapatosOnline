@@ -1,8 +1,10 @@
-CREATE DATABASE ProyectoTiendaZapatos
+DROP DATABASE ProyectoTiendaZapatos
 GO
 
 USE ProyectoTiendaZapatos
 GO
+
+USE master
 
 ALTER AUTHORIZATION ON DATABASE::ProyectoTiendaZapatos TO sa
 GO
@@ -18,6 +20,7 @@ GO
 CREATE TABLE Usuario (
 	id INT IDENTITY ( 1 , 1 ) PRIMARY KEY,
 	Usuario VARCHAR (50) NOT NULL UNIQUE,
+	CorreoElectronico VARCHAR (50) NOT NULL UNIQUE,
 	Contrasenia VARCHAR (100) NOT NULL,
 	IdRol INT NOT NULL FOREIGN KEY REFERENCES Rol (Id) ON DELETE NO ACTION ON UPDATE CASCADE CHECK (IdRol > 0),
 	Estado BIT NOT NULL DEFAULT 1 CHECK (Estado IN (0, 1))

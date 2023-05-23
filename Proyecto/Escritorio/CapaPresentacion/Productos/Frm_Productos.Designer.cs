@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.panel_Usuario = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.CmbColor = new System.Windows.Forms.ComboBox();
-            this.CmbColeccion = new System.Windows.Forms.ComboBox();
-            this.CmbMaterial = new System.Windows.Forms.ComboBox();
-            this.CmbTipoCalzado = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.BtnAgregar = new System.Windows.Forms.Button();
             this.BtnEditar = new System.Windows.Forms.Button();
+            this.BtnAgregar = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.CmbTipoCalzado = new System.Windows.Forms.ComboBox();
+            this.CmbMaterial = new System.Windows.Forms.ComboBox();
+            this.CmbColeccion = new System.Windows.Forms.ComboBox();
+            this.CmbColor = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel_Usuario.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,99 +67,14 @@
             this.panel_Usuario.Size = new System.Drawing.Size(939, 453);
             this.panel_Usuario.TabIndex = 2;
             // 
-            // panel1
+            // BtnEditar
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(939, 106);
-            this.panel1.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(107, 168);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 15);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Nombre Producto";
-       
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(107, 197);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 15);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Color";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(107, 294);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 15);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Tipo Calzado";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(107, 261);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 15);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Material";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(107, 227);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 15);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Coleccion";
-            // 
-            // CmbColor
-            // 
-            this.CmbColor.FormattingEnabled = true;
-            this.CmbColor.Location = new System.Drawing.Point(229, 189);
-            this.CmbColor.Name = "CmbColor";
-            this.CmbColor.Size = new System.Drawing.Size(121, 23);
-            this.CmbColor.TabIndex = 8;
-            // 
-            // CmbColeccion
-            // 
-            this.CmbColeccion.FormattingEnabled = true;
-            this.CmbColeccion.Location = new System.Drawing.Point(229, 218);
-            this.CmbColeccion.Name = "CmbColeccion";
-            this.CmbColeccion.Size = new System.Drawing.Size(121, 23);
-            this.CmbColeccion.TabIndex = 9;
-            // 
-            // CmbMaterial
-            // 
-            this.CmbMaterial.FormattingEnabled = true;
-            this.CmbMaterial.Location = new System.Drawing.Point(229, 253);
-            this.CmbMaterial.Name = "CmbMaterial";
-            this.CmbMaterial.Size = new System.Drawing.Size(121, 23);
-            this.CmbMaterial.TabIndex = 10;
-            // 
-            // CmbTipoCalzado
-            // 
-            this.CmbTipoCalzado.FormattingEnabled = true;
-            this.CmbTipoCalzado.Location = new System.Drawing.Point(229, 286);
-            this.CmbTipoCalzado.Name = "CmbTipoCalzado";
-            this.CmbTipoCalzado.Size = new System.Drawing.Size(121, 23);
-            this.CmbTipoCalzado.TabIndex = 11;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(229, 160);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 12;
+            this.BtnEditar.Location = new System.Drawing.Point(447, 341);
+            this.BtnEditar.Name = "BtnEditar";
+            this.BtnEditar.Size = new System.Drawing.Size(75, 23);
+            this.BtnEditar.TabIndex = 14;
+            this.BtnEditar.Text = "Editar";
+            this.BtnEditar.UseVisualStyleBackColor = true;
             // 
             // BtnAgregar
             // 
@@ -170,14 +85,98 @@
             this.BtnAgregar.Text = "Agregar";
             this.BtnAgregar.UseVisualStyleBackColor = true;
             // 
-            // BtnEditar
+            // textBox1
             // 
-            this.BtnEditar.Location = new System.Drawing.Point(447, 341);
-            this.BtnEditar.Name = "BtnEditar";
-            this.BtnEditar.Size = new System.Drawing.Size(75, 23);
-            this.BtnEditar.TabIndex = 14;
-            this.BtnEditar.Text = "Editar";
-            this.BtnEditar.UseVisualStyleBackColor = true;
+            this.textBox1.Location = new System.Drawing.Point(229, 149);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 23);
+            this.textBox1.TabIndex = 12;
+            // 
+            // CmbTipoCalzado
+            // 
+            this.CmbTipoCalzado.FormattingEnabled = true;
+            this.CmbTipoCalzado.Location = new System.Drawing.Point(229, 319);
+            this.CmbTipoCalzado.Name = "CmbTipoCalzado";
+            this.CmbTipoCalzado.Size = new System.Drawing.Size(121, 23);
+            this.CmbTipoCalzado.TabIndex = 11;
+            // 
+            // CmbMaterial
+            // 
+            this.CmbMaterial.FormattingEnabled = true;
+            this.CmbMaterial.Location = new System.Drawing.Point(229, 270);
+            this.CmbMaterial.Name = "CmbMaterial";
+            this.CmbMaterial.Size = new System.Drawing.Size(121, 23);
+            this.CmbMaterial.TabIndex = 10;
+            // 
+            // CmbColeccion
+            // 
+            this.CmbColeccion.FormattingEnabled = true;
+            this.CmbColeccion.Location = new System.Drawing.Point(229, 228);
+            this.CmbColeccion.Name = "CmbColeccion";
+            this.CmbColeccion.Size = new System.Drawing.Size(121, 23);
+            this.CmbColeccion.TabIndex = 9;
+            // 
+            // CmbColor
+            // 
+            this.CmbColor.FormattingEnabled = true;
+            this.CmbColor.Location = new System.Drawing.Point(229, 189);
+            this.CmbColor.Name = "CmbColor";
+            this.CmbColor.Size = new System.Drawing.Size(121, 23);
+            this.CmbColor.TabIndex = 8;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(107, 237);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(60, 15);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Coleccion";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(107, 278);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 15);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Material";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(107, 327);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(75, 15);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Tipo Calzado";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(107, 197);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(36, 15);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Color";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(107, 152);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 15);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Nombre Producto";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(939, 106);
+            this.panel1.TabIndex = 2;
             // 
             // Frm_Productos
             // 

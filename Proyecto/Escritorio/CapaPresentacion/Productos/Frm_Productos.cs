@@ -23,9 +23,6 @@ namespace CapaPresentacion.Productos
         }
         public void LlenarCombobox()
         {
-<<<<<<< HEAD
-            //CmbColor
-=======
             CmbColor.DataSource = oCn_Color.ConsultarColor();
             CmbColor.ValueMember = "Id";
             CmbColor.DisplayMember = "Nombre";
@@ -38,7 +35,6 @@ namespace CapaPresentacion.Productos
             CmbTipoCalzado.DataSource = oCn_TipoCalzado.ConsultarTipoCalzado();
             CmbTipoCalzado.ValueMember = "Id";
             CmbTipoCalzado.DisplayMember = "Nombre";
->>>>>>> a9183cb8fb99950d0497c9595c8c692eab84452d
 
         }
 

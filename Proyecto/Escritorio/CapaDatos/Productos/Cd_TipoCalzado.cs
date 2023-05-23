@@ -1,8 +1,5 @@
 ﻿using CapaDatos.Conexion;
-<<<<<<< HEAD
 using CapaEntidades;
-=======
->>>>>>> a9183cb8fb99950d0497c9595c8c692eab84452d
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -16,7 +13,6 @@ namespace CapaDatos.Productos
 {
     public class Cd_TipoCalzado
     {
-<<<<<<< HEAD
         public void AgregarTipoCalzado(Ce_TipoCalzado AgregarTipoCalzado)
         {
             using (SqlConnection conex = new SqlConnection(Cd_Conexion._rutaBaseDatos))
@@ -75,8 +71,8 @@ namespace CapaDatos.Productos
                     cmd.ExecuteNonQuery();
                 }
             }
-=======
-        public DataTable ConsultarTipoCalzado()
+        }
+        public DataTable ConsultarTipoCalzado(int id)
         {
             DataTable tabla = new DataTable();
 
@@ -93,8 +89,6 @@ namespace CapaDatos.Productos
                 }
             }
             return tabla;
-
->>>>>>> a9183cb8fb99950d0497c9595c8c692eab84452d
         }
     }
 }

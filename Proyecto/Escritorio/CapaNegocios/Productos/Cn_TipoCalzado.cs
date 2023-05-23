@@ -8,14 +8,12 @@ using System.Threading.Tasks;
 
 namespace CapaNegocios.Productos
 {
-    public class Cn_Color
+    public class Cn_TipoCalzado
     {
-        Cd_Color oCd_Color = new Cd_Color();    
-        Cd_Coleccion oCd_Coleccion = new Cd_Coleccion();    
-
-        public DataTable ConsultarColor()
+        Cd_TipoCalzado oCd_TipoCalzado = new Cd_TipoCalzado();  
+        public DataTable ConsultarTipoCalzado()
         {
-            DataTable tabla = oCd_Color.ConsultarColor();
+            DataTable tabla = oCd_TipoCalzado.ConsultarTipoCalzado();
             return tabla;
         }
     }

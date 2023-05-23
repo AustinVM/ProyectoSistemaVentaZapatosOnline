@@ -12,9 +12,20 @@ namespace CapaPresentacion.Productos
 {
     public partial class Frm_Productos : Form
     {
+
         public Frm_Productos()
         {
             InitializeComponent();
         }
+        public void LlenarCombobox()
+        {
+
+
+
+
+
+
+        }
+        
     }
 }

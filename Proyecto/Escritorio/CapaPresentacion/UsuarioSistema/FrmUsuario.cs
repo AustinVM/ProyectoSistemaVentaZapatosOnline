@@ -58,5 +58,10 @@ namespace CapaPresentacion.UsuarioSistema
             Gpb_insertar_usuario.Visible = false;
             Gpb_roles.Visible = true;
         }
+
+        private void Btn_guardar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

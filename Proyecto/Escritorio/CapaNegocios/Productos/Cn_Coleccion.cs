@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace CapaNegocios.Productos
 {
-    public class Cn_Color
+    public class Cn_Coleccion
     {
-        Cd_Color oCd_Color = new Cd_Color();    
-        Cd_Coleccion oCd_Coleccion = new Cd_Coleccion();    
+        Cd_Coleccion oCd_Coleccion = new Cd_Coleccion();
 
-        public DataTable ConsultarColor()
+
+        public DataTable ConsultarColeccion()
         {
-            DataTable tabla = oCd_Color.ConsultarColor();
+            DataTable tabla = oCd_Coleccion.ConsultarColeccion();
             return tabla;
         }
     }

@@ -21,10 +21,6 @@ namespace CapaPresentacion.UsuarioSistema
             Gpb_roles.Visible = false;
         }
 
-
-
-
-
         private void crearYEditarUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             label1.Text = "Crear y Editar Usuarios";

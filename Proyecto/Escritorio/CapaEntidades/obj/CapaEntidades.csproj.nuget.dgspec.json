@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sena CSET\\Documents\\Nueva carpeta\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj": {}
+    "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sena CSET\\Documents\\Nueva carpeta\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj": {
+    "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sena CSET\\Documents\\Nueva carpeta\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj",
+        "projectUniqueName": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj",
         "projectName": "CapaEntidades",
-        "projectPath": "C:\\Users\\Sena CSET\\Documents\\Nueva carpeta\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj",
+        "projectPath": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj",
         "packagesPath": "C:\\Users\\Sena CSET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sena CSET\\Documents\\Nueva carpeta\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\obj\\",
+        "outputPath": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sena CSET\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

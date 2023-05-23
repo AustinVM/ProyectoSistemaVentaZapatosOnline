@@ -100,3 +100,37 @@ C:\Users\Sena CSET\Documents\Nueva carpeta\ProyectoSistemaVentaZapatosOnline\Pro
 C:\Users\Sena CSET\Documents\Nueva carpeta\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
 C:\Users\Sena CSET\Documents\Nueva carpeta\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
 C:\Users\Sena CSET\Documents\Nueva carpeta\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.deps.json
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.dll
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.pdb
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaDatos.dll
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaEntidades.dll
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaDatos.pdb
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaEntidades.pdb
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.AssemblyReference.cache
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfoInputs.cache
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfo.cs
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CoreCompileInputs.cache
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CopyComplete
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.dll
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
+F:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.deps.json
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.dll
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.pdb
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaEntidades.dll
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaEntidades.pdb
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.AssemblyReference.cache
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfoInputs.cache
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfo.cs
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CopyComplete
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.dll
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
+C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll

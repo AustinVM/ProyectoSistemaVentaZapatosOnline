@@ -32,12 +32,13 @@ namespace CapaPresentacion
 
         private void Abrir(Form hijo)
         {
-            this.panel_Usuario.Controls.Clear();
+            this.PnlOpciones.Controls.Clear();
             hijo.TopLevel = false;
             hijo.Dock = DockStyle.Fill;
-            this.panel_Usuario.Controls.Add(hijo);
+            this.PnlOpciones.Controls.Add(hijo);
             hijo.Show();
         }
+
         #endregion
 
         private void BtnUsuario_Click(object sender, EventArgs e)

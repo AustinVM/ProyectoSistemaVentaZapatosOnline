@@ -514,11 +514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sena CSET\\Documents\\Nueva carpeta\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaNegocios\\CapaNegocios.csproj",
+      "projectUniqueName": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaNegocios\\CapaNegocios.csproj",
       "projectName": "CapaNegocios",
-      "projectPath": "C:\\Users\\Sena CSET\\Documents\\Nueva carpeta\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaNegocios\\CapaNegocios.csproj",
+      "projectPath": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaNegocios\\CapaNegocios.csproj",
       "packagesPath": "C:\\Users\\Sena CSET\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sena CSET\\Documents\\Nueva carpeta\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaNegocios\\obj\\",
+      "outputPath": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaNegocios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sena CSET\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -535,11 +535,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Sena CSET\\Documents\\Nueva carpeta\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaDatos\\CapaDatos.csproj": {
-              "projectPath": "C:\\Users\\Sena CSET\\Documents\\Nueva carpeta\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaDatos\\CapaDatos.csproj"
+            "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaDatos\\CapaDatos.csproj": {
+              "projectPath": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaDatos\\CapaDatos.csproj"
             },
-            "C:\\Users\\Sena CSET\\Documents\\Nueva carpeta\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "C:\\Users\\Sena CSET\\Documents\\Nueva carpeta\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj"
+            "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         }
@@ -575,7 +575,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

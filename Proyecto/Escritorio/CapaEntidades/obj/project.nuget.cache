@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "18TsmpGAoMSlstdSGdUneSzn5JAKaGgh4k+ZlThFwn1li+bjFeZOYztEG979ctdLj2eUoWGcbeMs8Sq0h/6TEQ==",
+  "dgSpecHash": "c5IZScKjoIUqtSEvjsLCDMOZlIA0ku1xQtH3wyIh7dDbTTy/D1JtPJ1+AzA8m1xrqvJSYJkqknwTAcCPe49l/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sena CSET\\Documents\\Nueva carpeta\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj",
+  "projectFilePath": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sena CSET\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Sena CSET\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

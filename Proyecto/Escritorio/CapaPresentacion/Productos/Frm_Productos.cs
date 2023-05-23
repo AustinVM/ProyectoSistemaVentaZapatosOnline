@@ -19,7 +19,7 @@ namespace CapaPresentacion.Productos
         }
         public void LlenarCombobox()
         {
-            CmbColor
+            //CmbColor
 
 
 

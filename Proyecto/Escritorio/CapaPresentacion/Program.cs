@@ -1,5 +1,3 @@
-using CapaPresentacion.UsuarioSistema;
-
 namespace CapaPresentacion
 {
     internal static class Program

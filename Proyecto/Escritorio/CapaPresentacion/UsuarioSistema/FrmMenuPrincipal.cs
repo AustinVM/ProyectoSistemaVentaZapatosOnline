@@ -1,5 +1,4 @@
-﻿using CapaPresentacion.Global;
-using CapaPresentacion.Productos;
+﻿using CapaPresentacion.Productos;
 using CapaPresentacion.UsuarioSistema;
 
 namespace CapaPresentacion

@@ -1,7 +1,7 @@
 using CapaDatos.Conexion;
 using CapaEntidades.Facturacion;
-using System.Data.SqlClient;
 using System.Data;
+using System.Data.SqlClient;
 
 namespace CapaDatos
 {

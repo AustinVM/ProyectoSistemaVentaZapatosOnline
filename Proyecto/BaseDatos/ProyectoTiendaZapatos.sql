@@ -151,14 +151,10 @@ CREATE TABLE Producto (
 	IdColeccion INT NOT NULL FOREIGN KEY REFERENCES Coleccion (Id) ON DELETE NO ACTION ON UPDATE CASCADE CHECK (IdColeccion > 0),
 	IdMaterial INT NOT NULL FOREIGN KEY REFERENCES Material (Id) ON DELETE NO ACTION ON UPDATE CASCADE CHECK (IdMaterial > 0),
 	IdTipoCalzado INT NOT NULL FOREIGN KEY REFERENCES TipoCalzado (Id) ON DELETE NO ACTION ON UPDATE CASCADE CHECK (IdTipoCalzado > 0),
+	ImagenProducto VARBINARY(MAX) NOT NULL,
 	Estado BIT NOT NULL DEFAULT 1 CHECK (estado IN (0, 1))
 );
 GO
-use ProyectoTiendaZapatos
-exec sp_help Producto
-select*from Producto
-alter table Producto alter column ImagenProducto varbinary(max) 
-on [primary] testimage_on [primary]
 
 CREATE TABLE Producto_Talla (
 	id INT IDENTITY (1,1) PRIMARY KEY,

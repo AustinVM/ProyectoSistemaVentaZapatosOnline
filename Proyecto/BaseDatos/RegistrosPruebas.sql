@@ -25,17 +25,20 @@ INSERT INTO iva VALUES ('12%', DEFAULT),
 GO
 
 INSERT INTO tallas VALUES ('12', DEFAULT)
-
+GO
 
 INSERT INTO Material VALUES ('Cuero', DEFAULT),
-			           ('Yute', DEFAULT)
-					  
+			           		('Yute', DEFAULT)
+GO
+ 
 INSERT INTO Color VALUES ('Amarillo', DEFAULT),
-			           ('Blanco', DEFAULT)
-					  
+			           	 ('Blanco', DEFAULT)
+GO
+
 INSERT INTO Coleccion VALUES ('Verano','junio', DEFAULT),
-			           ('Invierno','Diciembre', DEFAULT)
-					  
+			           		 ('Invierno','Diciembre', DEFAULT)
+GO
+
 INSERT INTO TipoCalzado VALUES ('Tacon', DEFAULT),
-			           ('Tennis', DEFAULT)
-		
+			           		('Tennis', DEFAULT)
+GO

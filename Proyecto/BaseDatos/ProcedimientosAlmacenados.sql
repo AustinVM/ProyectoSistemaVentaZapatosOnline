@@ -34,7 +34,7 @@ GO
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------
-select*from usuario
+
 
 CREATE PROC SP_AgregarUsuario
     @usuario VARCHAR (50),
@@ -52,16 +52,12 @@ GO
     @estado BIT
 AS */
 
-
-
-
-
 CREATE PROC SP_ConsultarUsuario
 AS
     SELECT * FROM usuario
 GO
 
-CREATE PROC ValidarUsuario
+CREATE PROC SP_ValidarUsuario
 	@Usuario VARCHAR (50),
 	@contrasenia VARCHAR (100),
 	@id_Rol INT
@@ -92,28 +88,26 @@ CREATE PROC SP_AniadirTipoDocumento
 	@nombre VARCHAR (50),
 	@estado BIT
 AS
-	INSERT INTO tipoDocumento (Nombre, Estado) VALUES (@nombre, @estado)
+	INSERT INTO TipoDocumento (Nombre, Estado) VALUES (@nombre, @estado)
 GO
 
 CREATE PROC SP_ConsultarTipoDocumento
-	@nombre VARCHAR (50),
-	@estado BIT
 AS
-	SELECT * FROM tipoDocumento WHERE estado = @estado
+	SELECT * FROM TipoDocumento
 GO
 
 CREATE PROC SP_ActualizarTipoDocumento
-	@id INT,
-	@nombre VARCHAR (50),
-	@estado BIT
+	@Id INT,
+	@Nombre VARCHAR (50),
+	@Estado BIT
 AS
-	UPDATE tipoDocumento SET nombre = @nombre, estado = @estado WHERE id = @id
+	UPDATE TipoDocumento SET Nombre = @Nombre, Estado = @Estado WHERE Id = @Id
 GO
 
 CREATE PROC SP_EliminarTipoDocumento
-	@id INT
+	@Id INT
 AS
-	DELETE FROM tipoDocumento WHERE id = @id
+	DELETE FROM TipoDocumento WHERE Id = @Id
 GO
 
 ----------------------------------------------------------------------------------------------------------------------------------
@@ -121,204 +115,333 @@ GO
 
 
 CREATE PROC SP_AniadirIva
-	@iva VARCHAR (5),
-	@estado BIT
+	@Iva VARCHAR (5),
+	@Estado BIT
 AS
-	INSERT INTO iva (iva, estado) VALUES (@iva, @estado)
+	INSERT INTO Iva (Iva, Estado) VALUES (@Iva, @Estado)
 GO
 
 CREATE PROC SP_ConsultarIva
-	@iva VARCHAR (50),
-	@estado BIT
+	@Iva VARCHAR (50),
+	@Estado BIT
 AS
-	SELECT * FROM iva WHERE estado = @estado
+	SELECT * FROM Iva WHERE Estado = @Estado
 GO
 
 CREATE PROC SP_ActualizarIva
-	@id INT,
-	@iva VARCHAR (5),
-	@estado BIT
+	@Id INT,
+	@Iva VARCHAR (5),
+	@Estado BIT
 AS
-	UPDATE iva SET iva = @iva, estado = @estado WHERE id = @id
+	UPDATE Iva SET Iva = @Iva, Estado = @Estado WHERE Id = @Id
 GO
 
 CREATE PROC SP_EliminarIva
-	@id INT
+	@Id INT
 AS
-	DELETE FROM iva WHERE id = @id
+	DELETE FROM Iva WHERE Id = @Id
 GO
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------
 
 
-CREATE PROC SP_AniadirCategoria
-	@nombre VARCHAR (5),
-	@descripcion VARCHAR (100),
-	@descuento INT,
+CREATE PROC SP_AniadirCategoriaCliente
+	@Nombre VARCHAR (5),
+	@Descripcion VARCHAR (100),
+	@Descuento INT,
+	@Estado BIT
+AS
+	INSERT INTO CategoriaCliente (Nombre, Descripcion, Descuento, Estado) VALUES (@Nombre, @Descripcion, @Descuento, @Estado)
+GO
+
+CREATE PROC SP_ConsultarCategoriaCliente
 	@estado BIT
 AS
-	INSERT INTO categoria (nombre, descripcion, descuento, estado) VALUES (@nombre, @descripcion, @descuento, @estado)
+	SELECT Nombre, Descripcion, Descuento FROM CategoriaCliente WHERE Estado = @Estado
 GO
 
-CREATE PROC SP_ConsultarCategoria
-	@estado BIT
+CREATE PROC SP_ActualizarCategoriaCliente
+	@Id INT,
+	@Nombre VARCHAR (5),
+	@Descripcion VARCHAR (100),
+	@Descuento INT,
+	@Estado BIT
 AS
-	SELECT nombre, descripcion, descuento FROM categoria WHERE estado = @estado
+	UPDATE CategoriaCliente SET Nombre = @Nombre, Descripcion = @Descripcion, Descuento = @Descuento, Estado = @Estado WHERE Id = @Id
 GO
 
-CREATE PROC SP_ActualizarCategoria
-	@id INT,
-	@nombre VARCHAR (5),
-	@descripcion VARCHAR (100),
-	@descuento INT,
-	@estado BIT
+CREATE PROC SP_EliminarCategoriaCliente
+	@Id INT
 AS
-	UPDATE categoria SET nombre = @nombre, descripcion = @descripcion, descuento = @descuento, estado = @estado WHERE id = @id
-GO
-
-CREATE PROC SP_EliminarCategoria
-	@id INT
-AS
-	DELETE FROM categoria WHERE id = @id
+	DELETE FROM CategoriaCliente WHERE Id = @Id
 GO
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------
-
-
-
------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
 
 CREATE PROC SP_AgregarTipoCliente
-	@nombre VARCHAR (50),
-	@estado BIT
+	@Nombre VARCHAR (50),
+	@Estado BIT
 AS
-	INSERT INTO tipoCliente (nombre, estado) VALUES (@nombre, @estado)
+	INSERT INTO TipoCliente (Nombre, Estado) VALUES (@Nombre, @Estado)
 GO
 
 CREATE PROC SP_ConsultarTipoCliente
-	@nombre VARCHAR (50),
-	@estado BIT
 AS
-	SELECT * FROM tipoCliente WHERE estado = @estado
+	SELECT * FROM TipoCliente
 GO
 
 CREATE PROC SP_ActualizarTipoCliente
-	@id INT,
-	@nombre VARCHAR (50),
-	@estado BIT
+	@Id INT,
+	@Nombre VARCHAR (50),
+	@Estado BIT
 AS
-	UPDATE tipoCliente SET nombre = @nombre, estado = @estado WHERE id = @id
+	UPDATE TipoCliente SET Nombre = @Nombre, Estado = @Estado WHERE Id = @Id
 GO
 
 CREATE PROC SP_EliminarTipoCliente
-	@id INT
+	@Id INT
 AS
-	DELETE FROM tipoCliente WHERE id = @id
+	DELETE FROM TipoCliente WHERE Id = @Id
 GO
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------
 
 CREATE PROC SP_AgregarDepartamento
-	@nombre VARCHAR (50),
-	@estado BIT
+	@Nombre VARCHAR (50),
+	@Estado BIT
 AS
-	INSERT INTO Departamento (nombre, estado) VALUES (@nombre, @estado)
+	INSERT INTO Departamento (Nombre, Estado) VALUES (@Nombre, @Estado)
 GO
 
 CREATE PROC SP_ConsultarDepartamento
-	@nombre VARCHAR (50),
-	@estado BIT
 AS
-	SELECT * FROM Departamento WHERE estado = @estado
+	SELECT * FROM Departamento
 GO
 
 CREATE PROC SP_ActualizarDepartamento
-	@id INT,
-	@nombre VARCHAR (50),
-	@estado BIT
+	@Id INT,
+	@Nombre VARCHAR (50),
+	@Estado BIT
 AS
-	UPDATE Departamento SET nombre = @nombre, estado = @estado WHERE id = @id
+	UPDATE Departamento SET Nombre = @Nombre, Estado = @Estado WHERE Id = @Id
 GO
 
 CREATE PROC SP_EliminarDepartamento
-	@id INT
+	@Id INT
 AS
-	DELETE FROM Departamento WHERE id = @id
+	DELETE FROM Departamento WHERE Id = @Id
 GO
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------
 
 CREATE PROC SP_AgregarMunicipio
-	@nombre VARCHAR (50),
-	@id_Departamento INT,
-	@estado BIT
+	@Nombre VARCHAR (50),
+	@IdDepartamento INT,
+	@Estado BIT
 AS
-	INSERT INTO Municipio (Nombre, IdDepartamento, Estado) VALUES (@nombre, @id_Departamento, @estado)
+	INSERT INTO Municipio (Nombre, IdDepartamento, Estado) VALUES (@Nombre, @IdDepartamento, @Estado)
 GO
 
 CREATE PROC SP_ConsultarMunicipio
-	@nombre VARCHAR (50),
-	@estado BIT
 AS
-	SELECT * FROM Municipio WHERE Estado = @estado
+	SELECT * FROM Municipio
 GO
 
 CREATE PROC SP_ActualizarMunicipio
 	@id INT,
-	@nombre VARCHAR (50),
-	@id_Departamento INT,
-	@estado BIT
+	@Nombre VARCHAR (50),
+	@IdDepartamento INT,
+	@Estado BIT
 AS
-	UPDATE Municipio SET Nombre = @nombre, IdDepartamento = @id_Departamento, Estado = @estado WHERE Id = @id
+	UPDATE Municipio SET Nombre = @Nombre, IdDepartamento = @IdDepartamento, Estado = @Estado WHERE Id = @Id
 GO
 
 CREATE PROC SP_EliminarMunicipio
-	@id INT
+	@Id INT
 AS
-	DELETE FROM Departamento WHERE id = @id
+	DELETE FROM Departamento WHERE Id = @Id
 GO
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------
---procedimientos creados jonathan 
-CREATE PROC SP_ConsultarColor
+
+
+
+CREATE PROC SP_AgregarColor
+	@Nombre VARCHAR (50),
+	@Estado BIT
+AS
+	INSERT INTO Color (Nombre, Estado) VALUES (@Nombre, @Estado)
+GO
+
+CREATE PROC SP_ConsultarDepartamento
 AS
 	SELECT * FROM Color
 GO
 
+CREATE PROC SP_ActualizarColor
+	@Id INT,
+	@Nombre VARCHAR (50),
+	@Estado BIT
+AS
+	UPDATE Color SET Nombre = @Nombre, Estado = @Estado WHERE Id = @Id
+GO
+
+CREATE PROC SP_EliminarColor
+	@Id INT
+AS
+	DELETE FROM Color WHERE Id = @Id
+GO
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------
+
+CREATE PROC SP_AgregarTallas
+	@Nombre VARCHAR (50),
+	@Estado BIT
+AS
+	INSERT INTO Tallas (Nombre, Estado) VALUES (@Nombre, @Estado)
+GO
+
+CREATE PROC SP_ConsultarTallas
+AS
+	SELECT * FROM Tallas
+GO
+
+CREATE PROC SP_ActualizarTallas
+	@Id INT,
+	@Nombre VARCHAR (50),
+	@Estado BIT
+AS
+	UPDATE Tallas SET Nombre = @Nombre, Estado = @Estado WHERE Id = @Id
+GO
+
+CREATE PROC SP_EliminarTallas
+	@Id INT
+AS
+	DELETE FROM Tallas WHERE Id = @Id
+GO
+
+----------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
+
+CREATE PROC SP_AgregarColeccion
+	@Nombre VARCHAR (50),
+	@Epoca VARCHAR (50),
+	@Estado BIT
+AS
+	INSERT INTO Coleccion (Nombre, Epoca, Estado) VALUES (@Nombre, @Epoca, @Estado)
+GO
+
+CREATE PROC SP_ConsultarColeccion
+AS
+	SELECT * FROM Coleccion
+GO
+
+CREATE PROC SP_ActualizarColeccion
+	@Id INT,
+	@Nombre VARCHAR (50),
+	@Epoca VARCHAR (50),
+	@Estado BIT
+AS
+	UPDATE Coleccion SET Nombre = @Nombre, Epoca = @Epoca, Estado = @Estado WHERE Id = @Id
+GO
+
+CREATE PROC SP_EliminarColeccion
+	@Id INT
+AS
+	DELETE FROM Coleccion WHERE Id = @Id
+GO
+
+----------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
+
+CREATE PROC SP_AgregarMaterial
+	@Nombre VARCHAR (50),
+	@Estado BIT
+AS
+	INSERT INTO Material (Nombre, Estado) VALUES (@Nombre, @Estado)
+GO
 
 CREATE PROC SP_ConsultarMaterial
 AS
 	SELECT * FROM Material
 GO
 
-
-----------------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------
-CREATE PROC SP_ConsultarColeccion
+CREATE PROC SP_ActualizarMaterial
+	@Id INT,
+	@Nombre VARCHAR (50),
+	@Estado BIT
 AS
-	SELECT * FROM Coleccion
+	UPDATE Material SET Nombre = @Nombre, Estado = @Estado WHERE Id = @Id
+GO
+
+CREATE PROC SP_EliminarMaterial
+	@Id INT
+AS
+	DELETE FROM Material WHERE Id = @Id
 GO
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------
 
+CREATE PROC SP_AgregarTipoCalzado
+	@Nombre VARCHAR (50),
+	@Estado BIT
+AS
+	INSERT INTO TipoCalzado (Nombre, Estado) VALUES (@Nombre, @Estado)
+GO
 
 CREATE PROC SP_ConsultarTipoCalzado
 AS
 	SELECT * FROM TipoCalzado
+GO
+
+CREATE PROC SP_ActualizarTipoCalzado
+	@Id INT,
+	@Nombre VARCHAR (50),
+	@Estado BIT
+AS
+	UPDATE TipoCalzado SET Nombre = @Nombre, Estado = @Estado WHERE Id = @Id
+GO
+
+CREATE PROC SP_EliminarTipoCalzado
+	@Id INT
+AS
+	DELETE FROM TipoCalzado WHERE Id = @Id
+GO
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+CREATE PROC SP_AgregarTipoPago
+	@Nombre VARCHAR (50),
+	@Estado BIT
+AS
+	INSERT INTO TipoPago (Nombre, Estado) VALUES (@Nombre, @Estado)
+GO
+
+CREATE PROC SP_ConsultarTipoPago
+AS
+	SELECT * FROM TipoPago
+GO
+
+CREATE PROC SP_ActualizarTipoPago
+	@Id INT,
+	@Nombre VARCHAR (50),
+	@Estado BIT
+AS
+	UPDATE TipoPago SET Nombre = @Nombre, Estado = @Estado WHERE Id = @Id
+GO
+
+CREATE PROC SP_EliminarTipoPago
+	@Id INT
+AS
+	DELETE FROM TipoPago WHERE Id = @Id
 GO
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
@@ -330,38 +453,24 @@ CREATE PROC SP_AgregarProducto
     @IdColeccion INT,
 	@IdMaterial INT,
 	@IdTipoCalzado INT,
-	@Estado bit,
-	@ImagenProducto varbinary(max)
-
-
+	@ImagenProducto VARBINARY(MAX),
+	@Estado BIT
 AS
-    INSERT INTO producto (NombreProducto, IdColor, IdColeccion, IdMaterial,IdTipoCalzado,Estado,ImagenProducto) VALUES (@NombreProducto,@IdColor , @IdColeccion,@IdMaterial,@IdTipoCalzado,@Estado,@ImagenProducto )
+    INSERT INTO producto (NombreProducto, IdColor, IdColeccion, IdMaterial, IdTipoCalzado, ImagenProducto, Estado) VALUES (@NombreProducto, @IdColor, @IdColeccion, @IdMaterial, @IdTipoCalzado, @ImagenProducto, @Estado)
 GO
- select*from Producto
 
------------------------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------------------------
---EDITAR PRODUC
-create proc SP_ActualizarProducto
+CREATE PROC SP_EditarProducto
 	@Id INT,
-	@NombreProducto VARCHAR (50),
+    @NombreProducto VARCHAR (50),
     @IdColor INT ,
     @IdColeccion INT,
 	@IdMaterial INT,
 	@IdTipoCalzado INT,
-	@Estado bit,
-	@ImagenProducto varbinary(max)
-
-
+	@ImagenProducto VARBINARY(MAX),
+	@Estado BIT
 AS
-    UPDATE  producto SET NombreProducto=@NombreProducto,IdColor=@IdColor, IdColeccion=@IdColeccion, IdMaterial=@IdMaterial,IdTipoCalzado=@IdTipoCalzado,Estado=@Estado, ImagenProducto=@ImagenProducto WHERE Id = @Id
+	UPDATE Producto SET NombreProducto = @NombreProducto, IdColor = @IdColor, IdColeccion = @IdColeccion, IdMaterial = @IdMaterial, IdTipoCalzado = @IdTipoCalzado, ImagenProducto = @ImagenProducto, Estado = @Estado
 GO
 
 -------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------
---CONSULTAR PROC
-
-create proc ConsultarProducto
-AS
-SELECT * FROM producto
-GO

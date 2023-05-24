@@ -78,9 +78,9 @@ namespace CapaPresentacion
 
         private void TxtContrasenia_MouseEnter(object sender, EventArgs e)
         {
-            if (TxtUsuario.Text == "CONTRASEÑA")
+            if (TxtContrasenia.Text == "CONTRASEÑA")
             {
-                TxtUsuario.Text = "";
+                TxtContrasenia.Text = "";
             }
         }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Mz3rh8FOpS+UrnyUezgJPAMWdvtlJGwfidUE5OjSkgqmIS+fmJ7PsC7tr6G5p3dZAp9+B/StCYF22a69cP7+w==",
+  "dgSpecHash": "ScmGzvQkitZZx/cAgSXMWk84RjvOgR7B+NkWkNaxwdqGeP57AkS24k05Qhk1Z+/oKNALm0g1SBXVxciWL51HrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\villa\\Videos\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaNegocios\\CapaNegocios.csproj",
+  "projectFilePath": "C:\\Users\\villa\\Videos\\ProyectoSistemaVentaZapatosOnline\\Nueva carpeta__\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaNegocios\\CapaNegocios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\villa\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\villa\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

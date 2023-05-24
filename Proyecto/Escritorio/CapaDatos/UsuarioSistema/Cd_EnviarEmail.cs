@@ -26,27 +26,25 @@ namespace CapaDatos.UsuarioSistema
             smtpClient.Port = port;
             smtpClient.EnableSsl = ssl;
         }
+
         public void sendMail(string subject, string body, List<string> recipientMail)
         {
-            var mailMessage = new MailMessage();
-            try
+            using (MailMessage mailMessage = new MailMessage())
             {
-                mailMessage.From = new MailAddress(senderMail);
-                foreach (string mail in recipientMail)
+                try
                 {
-                    mailMessage.To.Add(mail);
+                    mailMessage.From = new MailAddress(senderMail);
+                    foreach (string mail in recipientMail)
+                    {
+                        mailMessage.To.Add(mail);
+                    }
+                    mailMessage.Subject = subject;
+                    mailMessage.Body = body;
+                    mailMessage.Priority = MailPriority.Normal;
+                    smtpClient.Send(mailMessage); //Enviar mensaje
                 }
-                mailMessage.Subject = subject;
-                mailMessage.Body = body;
-                mailMessage.Priority = MailPriority.Normal;
-                smtpClient.Send(mailMessage);//Enviar mensaje
-            }
-            catch (Exception ex) { }
-            finally
-            {
-                mailMessage.Dispose();
-                smtpClient.Dispose();
-            }
+                catch (Exception ex) { }
+            }           
         }
     }
 }

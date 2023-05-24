@@ -1,6 +1,8 @@
 DROP DATABASE ProyectoTiendaZapatos
 GO
 
+create database ProyectoTiendaZapatos
+
 USE ProyectoTiendaZapatos
 GO
 
@@ -152,6 +154,11 @@ CREATE TABLE Producto (
 	Estado BIT NOT NULL DEFAULT 1 CHECK (estado IN (0, 1))
 );
 GO
+use ProyectoTiendaZapatos
+exec sp_help Producto
+select*from Producto
+alter table Producto alter column ImagenProducto varbinary(max) 
+on [primary] testimage_on [primary]
 
 CREATE TABLE Producto_Talla (
 	id INT IDENTITY (1,1) PRIMARY KEY,

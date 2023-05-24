@@ -34,7 +34,7 @@ GO
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------
-
+select*from usuario
 
 CREATE PROC SP_AgregarUsuario
     @usuario VARCHAR (50),
@@ -42,7 +42,7 @@ CREATE PROC SP_AgregarUsuario
     @ID_rol INT,
     @estado BIT
 AS
-    INSERT INTO usuario (usuario, contrasenia, ID_rol, estado) VALUES (@usuario, @contrasenia, @ID_rol, @estado)
+    INSERT INTO usuario (Usuario, Contrasenia, IdRol, Estado) VALUES (@usuario, @contrasenia, @ID_rol, @estado)
 GO
 
 /* CREATE PROC ConsultarUsuario
@@ -51,11 +51,6 @@ GO
     @ID_rol INT,
     @estado BIT
 AS */
-
-
-
-
-
 
 
 
@@ -71,7 +66,7 @@ CREATE PROC ValidarUsuario
 	@contrasenia VARCHAR (100),
 	@id_Rol INT
 AS
-	SELECT usuario, contrasenia, ID_Rol FROM usuario WHERE usuario = @usuario AND estado = 1
+	SELECT usuario, contrasenia, IdRol FROM usuario WHERE usuario = @usuario AND Estado = 1
 GO
 
 CREATE PROC SP_ActualizarUsuario
@@ -80,7 +75,7 @@ CREATE PROC SP_ActualizarUsuario
     @ID_rol INT,
     @estado BIT
 AS
-    UPDATE usuario SET usuario = @usuario, contrasenia = @contrasenia, ID_rol = @ID_rol, estado = @estado WHERE usuario = @usuario
+    UPDATE usuario SET usuario = @usuario, contrasenia = @contrasenia, IdRol = @ID_rol, Estado = @estado WHERE usuario = @usuario
 GO
 
 CREATE PROC SP_EliminarUsuario
@@ -97,7 +92,7 @@ CREATE PROC SP_AniadirTipoDocumento
 	@nombre VARCHAR (50),
 	@estado BIT
 AS
-	INSERT INTO tipoDocumento (nombre, estado) VALUES (@nombre, @estado)
+	INSERT INTO tipoDocumento (Nombre, Estado) VALUES (@nombre, @estado)
 GO
 
 CREATE PROC SP_ConsultarTipoDocumento
@@ -267,14 +262,14 @@ CREATE PROC SP_AgregarMunicipio
 	@id_Departamento INT,
 	@estado BIT
 AS
-	INSERT INTO Municipio (nombre, id_Departamento, estado) VALUES (@nombre, @id_Departamento, @estado)
+	INSERT INTO Municipio (Nombre, IdDepartamento, Estado) VALUES (@nombre, @id_Departamento, @estado)
 GO
 
 CREATE PROC SP_ConsultarMunicipio
 	@nombre VARCHAR (50),
 	@estado BIT
 AS
-	SELECT * FROM Municipio WHERE estado = @estado
+	SELECT * FROM Municipio WHERE Estado = @estado
 GO
 
 CREATE PROC SP_ActualizarMunicipio
@@ -283,7 +278,7 @@ CREATE PROC SP_ActualizarMunicipio
 	@id_Departamento INT,
 	@estado BIT
 AS
-	UPDATE Municipio SET nombre = @nombre, id_Departamento = @id_Departamento, estado = @estado WHERE id = @id
+	UPDATE Municipio SET Nombre = @nombre, IdDepartamento = @id_Departamento, Estado = @estado WHERE Id = @id
 GO
 
 CREATE PROC SP_EliminarMunicipio
@@ -324,4 +319,49 @@ GO
 CREATE PROC SP_ConsultarTipoCalzado
 AS
 	SELECT * FROM TipoCalzado
+GO
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+CREATE PROC SP_AgregarProducto
+    @NombreProducto VARCHAR (50),
+    @IdColor INT ,
+    @IdColeccion INT,
+	@IdMaterial INT,
+	@IdTipoCalzado INT,
+	@Estado bit,
+	@ImagenProducto varbinary(max)
+
+
+AS
+    INSERT INTO producto (NombreProducto, IdColor, IdColeccion, IdMaterial,IdTipoCalzado,Estado,ImagenProducto) VALUES (@NombreProducto,@IdColor , @IdColeccion,@IdMaterial,@IdTipoCalzado,@Estado,@ImagenProducto )
+GO
+ select*from Producto
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------
+--EDITAR PRODUC
+create proc SP_ActualizarProducto
+	@Id INT,
+	@NombreProducto VARCHAR (50),
+    @IdColor INT ,
+    @IdColeccion INT,
+	@IdMaterial INT,
+	@IdTipoCalzado INT,
+	@Estado bit,
+	@ImagenProducto varbinary(max)
+
+
+AS
+    UPDATE  producto SET NombreProducto=@NombreProducto,IdColor=@IdColor, IdColeccion=@IdColeccion, IdMaterial=@IdMaterial,IdTipoCalzado=@IdTipoCalzado,Estado=@Estado, ImagenProducto=@ImagenProducto WHERE Id = @Id
+GO
+
+-------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
+--CONSULTAR PROC
+
+create proc ConsultarProducto
+AS
+SELECT * FROM producto
 GO

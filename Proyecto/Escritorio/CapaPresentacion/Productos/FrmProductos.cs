@@ -188,14 +188,14 @@ namespace CapaPresentacion.Productos
             Gpb_insertar_Producto.Visible = true;
             Gpb_Consultar_Producto.Visible = false;
 
-            
+
         }
 
         private void Consultar_Click(object sender, EventArgs e)
         {
             Gpb_Consultar_Producto.Visible = true;
             Gpb_insertar_Producto.Visible = false;
-           
+
         }
 
         private void BtnConsultarProducto_Click(object sender, EventArgs e)

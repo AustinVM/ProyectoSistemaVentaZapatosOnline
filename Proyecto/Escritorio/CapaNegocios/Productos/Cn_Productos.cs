@@ -24,10 +24,10 @@ namespace CapaNegocios.Productos
             return dt;
         }
 
-        public void EliminarProducto(Ce_Producto EliminarProducto) 
-        { 
+        public void EliminarProducto(Ce_Producto EliminarProducto)
+        {
             oCd_Productos.EliminarProducto(EliminarProducto);
-        
+
         }
     }
 

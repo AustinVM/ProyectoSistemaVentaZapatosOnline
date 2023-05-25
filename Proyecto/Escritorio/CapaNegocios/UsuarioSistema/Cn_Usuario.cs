@@ -79,7 +79,7 @@ namespace CapaNegocios.UsuarioSistema
             else
             {
                 return false;
-            } 
+            }
         }
 
         public async Task<string> GeneratePasswordAsync(string ContraseniaNueva) // Metodo que encripta la contraseña alatoria generada del metodo "GenerarContraseniaAleatoria()"

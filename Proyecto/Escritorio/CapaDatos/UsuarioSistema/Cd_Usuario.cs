@@ -120,7 +120,7 @@ namespace CapaDatos.UsuarioSistema
             }
         }
 
-        
+
         public async Task<string> EnviarCorreoRecuperacion(string userRequesting, string nuevaContrasenia)
         {
             using (SqlConnection conex = new SqlConnection(Cd_Conexion._rutaBaseDatos))

@@ -54,7 +54,8 @@ namespace CapaDatos.UsuarioSistema
                             {
                                 Id = leer.GetInt32(0),
                                 NombreUsuario = leer.GetString(1),
-                                ContraseniaUsuario = leer.GetString(2),
+                                CorreoElectronico = leer.GetString(2),
+                                ContraseniaUsuario = leer.GetString(3),
                                 IdRol = leer.GetInt32(3),
                                 EstadoUsuario = leer.GetBoolean(4)
                             };
@@ -119,43 +120,30 @@ namespace CapaDatos.UsuarioSistema
             }
         }
 
-<<<<<<< HEAD
-        public string recuperarContrasenia(string userRequesting, string nuevaContrasenia)
-=======
+        
         public async Task<string> EnviarCorreoRecuperacion(string userRequesting, string nuevaContrasenia)
->>>>>>> eefe53db1e526782590a6af49cf45b8c996d982d
         {
             using (SqlConnection conex = new SqlConnection(Cd_Conexion._rutaBaseDatos))
             {
                 conex.Open();
                 using (SqlCommand command = new SqlCommand("SP_RecuperarContrasenia", conex))
                 {
-                    command.Parameters.AddWithValue("@user", userRequesting);
-                    command.Parameters.AddWithValue("@mail", userRequesting);
+                    command.Parameters.AddWithValue("@CorreoElectronico", userRequesting);
+                    command.Parameters.AddWithValue("@Contrasenia", nuevaContrasenia);
                     command.CommandType = CommandType.StoredProcedure;
                     SqlDataReader reader = command.ExecuteReader();
                     if (reader.Read())
                     {
-                        string userName = reader.GetString(3) + ", " + reader.GetString(4);
-                        string userMail = reader.GetString(6);
+                        string userName = reader.GetString(1);
+                        string userMail = reader.GetString(2);
                         var mailService = new Cd_RecuperarContrasenia();
-<<<<<<< HEAD
-                        mailService.sendMail(
+                        await mailService.EnviarCorreoRecuperacion(
                           subject: "SYSTEM: Password recovery request",
                           body: "Hi, " + userName + "\nYou Requested to Recover your password.\n" +
                           "your current password is: " + nuevaContrasenia +
                           "\nHowever, we ask that you change your password inmediately once you enter the system.",
                           mail: userMail
                           );
-=======
-                        await mailService.EnviarCorreoRecuperacion(
-                              subject: "SYSTEM: Password recovery request",
-                              body: "Hi, " + userName + "\nYou Requested to Recover your password.\n" +
-                                  "your current password is: " + nuevaContrasenia +
-                                  "\nHowever, we ask that you change your password immediately once you enter the system.",
-                              mail: userMail
-                        );
->>>>>>> eefe53db1e526782590a6af49cf45b8c996d982d
                         return "Hi, " + userName + "\nYou Requested to Recover your password.\n" +
                                "Please check your mail: " + userMail +
                                "\nHowever, we ask that you change your password immediately once you enter the system.";

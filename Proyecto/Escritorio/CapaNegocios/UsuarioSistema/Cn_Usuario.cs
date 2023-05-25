@@ -49,11 +49,11 @@ namespace CapaNegocios.UsuarioSistema
             oCd_Usuario.EliminarUsuario(EliminarUsuario);
         }
 
-        private static string EncriptarContrasenia(string ContraseniaNueva)
+        private static string EncriptarContrasenia(string Contrasenia)
         {
             using (SHA256 sha256Hash = SHA256.Create())
             {
-                byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(ContraseniaNueva));
+                byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(Contrasenia));
                 StringBuilder builder = new StringBuilder();
                 for (int i = 0; i < bytes.Length; i++)
                 {
@@ -63,11 +63,23 @@ namespace CapaNegocios.UsuarioSistema
             }
         }
 
-        public async Task recuperarContrasenia(string userRequesting)
+        public async Task<bool> recuperarContrasenia(string Correo)
         {
-            string ContraseniaNueva = await GenerarContraseniaAleatoria();
-            string ContraseniaNuevaEncriptada = EncriptarContrasenia(ContraseniaNueva);
-            await oCd_Usuario.EnviarCorreoRecuperacion(userRequesting, ContraseniaNueva);
+            var Consulta = from d in oCd_Usuario.ConsultarUsuario()
+                           where d.CorreoElectronico == Correo
+                           select d;
+
+            if (Consulta.Any())
+            {
+                string ContraseniaNueva = await GenerarContraseniaAleatoria();
+                string ContraseniaNuevaEncriptada = EncriptarContrasenia(ContraseniaNueva);
+                await oCd_Usuario.EnviarCorreoRecuperacion(Correo, ContraseniaNueva);
+                return true;
+            }
+            else
+            {
+                return false;
+            } 
         }
 
         public async Task<string> GeneratePasswordAsync(string ContraseniaNueva) // Metodo que encripta la contraseña alatoria generada del metodo "GenerarContraseniaAleatoria()"

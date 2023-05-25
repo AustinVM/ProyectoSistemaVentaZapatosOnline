@@ -4,8 +4,6 @@ GO
 USE ProyectoTiendaZapatos
 GO
 
-USE master
-
 ALTER AUTHORIZATION ON DATABASE::ProyectoTiendaZapatos TO sa
 GO
 	-- Tablas
@@ -120,7 +118,7 @@ CREATE TABLE Cliente (
 	IdTipoDocumento INT NOT NULL FOREIGN KEY REFERENCES TipoDocumento (Id) ON DELETE NO ACTION ON UPDATE CASCADE CHECK (IdTipoDocumento > 0),
 	Nombres VARCHAR (100) NOT NULL,
 	Apellidos VARCHAR (100) NOT NULL,
-	FechaNacimiento DATE NOT NULL CHECK (FechaNacimineto < CONVERT(DATE, GETDATE())),
+	FechaNacimiento DATE NOT NULL CHECK (FechaNacimiento < CONVERT(DATE, GETDATE())),
 	Direccion VARCHAR (100) NOT NULL,
 	Telefono VARCHAR (10) UNIQUE NOT NULL,
 	CorreoElectronico VARCHAR (100) UNIQUE NOT NULL,

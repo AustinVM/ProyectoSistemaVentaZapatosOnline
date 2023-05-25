@@ -64,7 +64,7 @@ CREATE PROC SP_ActualizarUsuario
     @IdRol INT,
     @Estado BIT
 AS
-    UPDATE Usuario SET Usuario = @Usuario, Contrasenia = @Contrasenia, IdRol = @IdRrol, Estado = @Estado WHERE Usuario = @Usuario
+    UPDATE Usuario SET Usuario = @Usuario, Contrasenia = @Contrasenia, IdRol = @IdRol, Estado = @Estado WHERE Usuario = @Usuario
 GO
 
 CREATE PROC SP_EliminarUsuario
@@ -74,10 +74,14 @@ AS
 GO
 
 CREATE PROC SP_RecuperarContrasenia
-    @Usuario VARCHAR (50),
+    @CorreoElectronico VARCHAR (50),
     @Contrasenia VARCHAR (100)
 AS
-    UPDATE Usuario SET Contrasenia = @Contrasenia WHERE Usuario = @Usuario
+	IF EXISTS (SELECT CorreoElectronico FROM Usuario WHERE CorreoElectronico = @CorreoElectronico)
+	BEGIN
+		SELECT * FROM Usuario WHERE CorreoElectronico = @CorreoElectronico
+    	UPDATE Usuario SET Contrasenia = @Contrasenia WHERE CorreoElectronico = @CorreoElectronico
+	END
 GO
 
 ----------------------------------------------------------------------------------------------------------------------------------

@@ -127,10 +127,8 @@ namespace CapaPresentacion.Productos
             DialogResult resultado = dialogo.ShowDialog();
             if (resultado == DialogResult.OK)
             {
-<<<<<<< HEAD
                 PbImagenProducto.Image = Image.FromFile(dialogo.FileName);
                 PbImagenProducto.SizeMode = PictureBoxSizeMode.StretchImage;
-=======
                 byte[] data = File.ReadAllBytes(openFileDialog1.FileName);
                 Image imag;
                 using (MemoryStream ms = new MemoryStream(data))
@@ -138,7 +136,6 @@ namespace CapaPresentacion.Productos
                     imag = Image.FromStream(ms);
                 }
                 PbImagenProducto.Image = imag;
->>>>>>> eefe53db1e526782590a6af49cf45b8c996d982d
             }
 
         }

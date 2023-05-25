@@ -15,7 +15,7 @@ namespace CapaDatos.UsuarioSistema.RecuperacionContraseña
         protected Cd_EnviarEmail() // Constructor de la clase "Cd_EnviarEmail"
         {
             senderMail = "villamizarmedina@gmail.com";
-            password = "admin4321";
+            password = "mwnajnowtgbboaqs";
             host = "smtp.gmail.com";
             port = 587;
             ssl = true;

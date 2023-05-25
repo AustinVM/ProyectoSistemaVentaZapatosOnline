@@ -8,8 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CapaEntidades
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaEntidades\
-=======
-build_property.ProjectDir = D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaEntidades\
->>>>>>> eefe53db1e526782590a6af49cf45b8c996d982d
+build_property.ProjectDir = C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaEntidades\

@@ -28,117 +28,87 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TxtContrasenia = new System.Windows.Forms.TextBox();
-            this.TxtUsuario = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.BtnIngresar = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            TxtCorreo = new TextBox();
+            label2 = new Label();
+            panel1 = new Panel();
+            BtnIngresar = new Button();
+            SuspendLayout();
             // 
-            // TxtContrasenia
+            // TxtCorreo
             // 
-            this.TxtContrasenia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.TxtContrasenia.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtContrasenia.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TxtContrasenia.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TxtContrasenia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.TxtContrasenia.Location = new System.Drawing.Point(21, 206);
-            this.TxtContrasenia.Name = "TxtContrasenia";
-            this.TxtContrasenia.Size = new System.Drawing.Size(410, 13);
-            this.TxtContrasenia.TabIndex = 6;
-            this.TxtContrasenia.Text = "CORREO";
-            // 
-            // TxtUsuario
-            // 
-            this.TxtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.TxtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TxtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TxtUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.TxtUsuario.Location = new System.Drawing.Point(21, 156);
-            this.TxtUsuario.Name = "TxtUsuario";
-            this.TxtUsuario.Size = new System.Drawing.Size(410, 13);
-            this.TxtUsuario.TabIndex = 5;
-            this.TxtUsuario.Text = "USUARIO";
+            TxtCorreo.BackColor = Color.FromArgb(15, 15, 15);
+            TxtCorreo.BorderStyle = BorderStyle.None;
+            TxtCorreo.Cursor = Cursors.IBeam;
+            TxtCorreo.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            TxtCorreo.ForeColor = Color.FromArgb(130, 130, 130);
+            TxtCorreo.Location = new Point(21, 159);
+            TxtCorreo.Name = "TxtCorreo";
+            TxtCorreo.Size = new Size(410, 13);
+            TxtCorreo.TabIndex = 6;
+            TxtCorreo.Text = "CORREO";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label2.Location = new System.Drawing.Point(18, 207);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(397, 15);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "______________________________________________________________________________";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label1.Location = new System.Drawing.Point(18, 157);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(397, 15);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "______________________________________________________________________________";
+            label2.AutoSize = true;
+            label2.ForeColor = SystemColors.ButtonShadow;
+            label2.Location = new Point(18, 160);
+            label2.Name = "label2";
+            label2.Size = new Size(397, 15);
+            label2.TabIndex = 8;
+            label2.Text = "______________________________________________________________________________";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(440, 68);
-            this.panel1.TabIndex = 9;
+            panel1.BackColor = Color.FromArgb(0, 122, 204);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(440, 68);
+            panel1.TabIndex = 9;
             // 
             // BtnIngresar
             // 
-            this.BtnIngresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.BtnIngresar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnIngresar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.BtnIngresar.FlatAppearance.BorderSize = 0;
-            this.BtnIngresar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.BtnIngresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.BtnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnIngresar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.BtnIngresar.ForeColor = System.Drawing.Color.Silver;
-            this.BtnIngresar.Location = new System.Drawing.Point(21, 271);
-            this.BtnIngresar.Name = "BtnIngresar";
-            this.BtnIngresar.Size = new System.Drawing.Size(394, 35);
-            this.BtnIngresar.TabIndex = 10;
-            this.BtnIngresar.Text = "RECUPERAR";
-            this.BtnIngresar.UseVisualStyleBackColor = false;
-            this.BtnIngresar.Click += new System.EventHandler(this.BtnIngresar_Click);
+            BtnIngresar.BackColor = Color.FromArgb(40, 40, 40);
+            BtnIngresar.Cursor = Cursors.Hand;
+            BtnIngresar.FlatAppearance.BorderColor = Color.FromArgb(15, 15, 15);
+            BtnIngresar.FlatAppearance.BorderSize = 0;
+            BtnIngresar.FlatAppearance.MouseDownBackColor = Color.FromArgb(28, 28, 28);
+            BtnIngresar.FlatAppearance.MouseOverBackColor = Color.FromArgb(64, 64, 64);
+            BtnIngresar.FlatStyle = FlatStyle.Flat;
+            BtnIngresar.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            BtnIngresar.ForeColor = Color.Silver;
+            BtnIngresar.Location = new Point(21, 271);
+            BtnIngresar.Name = "BtnIngresar";
+            BtnIngresar.Size = new Size(394, 35);
+            BtnIngresar.TabIndex = 10;
+            BtnIngresar.Text = "RECUPERAR";
+            BtnIngresar.UseVisualStyleBackColor = false;
+            BtnIngresar.Click += BtnIngresar_Click;
             // 
             // FrmRecuperarContrasenia
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ClientSize = new System.Drawing.Size(440, 375);
-            this.Controls.Add(this.BtnIngresar);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.TxtContrasenia);
-            this.Controls.Add(this.TxtUsuario);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "FrmRecuperarContrasenia";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmRecuperarContrasenia";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(15, 15, 15);
+            ClientSize = new Size(440, 375);
+            Controls.Add(BtnIngresar);
+            Controls.Add(panel1);
+            Controls.Add(TxtCorreo);
+            Controls.Add(label2);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "FrmRecuperarContrasenia";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "FrmRecuperarContrasenia";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private TextBox TxtContrasenia;
-        private TextBox TxtUsuario;
+        private TextBox TxtCorreo;
         private Label label2;
-        private Label label1;
         private Panel panel1;
         private Button BtnIngresar;
     }

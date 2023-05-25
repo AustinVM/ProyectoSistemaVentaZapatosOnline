@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using System.Net.Mail;
 
-namespace CapaDatos.UsuarioSistema
+namespace CapaDatos.UsuarioSistema.RecuperacionContraseña
 {
     public abstract class Cd_EnviarEmail
     {
@@ -22,17 +22,14 @@ namespace CapaDatos.UsuarioSistema
             smtpClient.EnableSsl = ssl;
         }
 
-        public void sendMail(string subject, string body, List<string> recipientMail)
+        public void sendMail(string subject, string body, string mail)
         {
             using (MailMessage mailMessage = new MailMessage())
             {
                 try
                 {
                     mailMessage.From = new MailAddress(senderMail);
-                    foreach (string mail in recipientMail)
-                    {
-                        mailMessage.To.Add(mail);
-                    }
+                    mailMessage.To.Add(mail);
                     mailMessage.Subject = subject;
                     mailMessage.Body = body;
                     mailMessage.Priority = MailPriority.Normal;

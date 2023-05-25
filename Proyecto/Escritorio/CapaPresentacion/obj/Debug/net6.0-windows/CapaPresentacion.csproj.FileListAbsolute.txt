@@ -363,3 +363,4 @@ C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyec
 C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.genruntimeconfig.cache
 C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\ref\CapaPresentacion.dll
 C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Productos.FrmProductos.resources
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.UsuarioSistema.RecuperarContraseña.FrmRecuperarContrasenia.resources

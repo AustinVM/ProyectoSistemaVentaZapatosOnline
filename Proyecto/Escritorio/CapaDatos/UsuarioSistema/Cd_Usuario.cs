@@ -1,4 +1,5 @@
 ﻿using CapaDatos.Conexion;
+using CapaDatos.UsuarioSistema.RecuperacionContraseña;
 using CapaEntidades.UsuarioSistema;
 using System.Data;
 using System.Data.SqlClient;
@@ -19,7 +20,7 @@ namespace CapaDatos.UsuarioSistema
                         cmd.CommandType = CommandType.StoredProcedure;
                         cmd.Parameters.AddWithValue("@Nombre", AgregarUsuario.NombreUsuario);
                         cmd.Parameters.AddWithValue("@Contrasenia", AgregarUsuario.ContraseniaUsuario);
-                        cmd.Parameters.AddWithValue("@IdRol", AgregarUsuario.Id_Rol);
+                        cmd.Parameters.AddWithValue("@IdRol", AgregarUsuario.IdRol);
                         cmd.Parameters.AddWithValue("@Estado", AgregarUsuario.EstadoUsuario);
                         cmd.ExecuteNonQuery();
                     }
@@ -54,7 +55,7 @@ namespace CapaDatos.UsuarioSistema
                                 Id = leer.GetInt32(0),
                                 NombreUsuario = leer.GetString(1),
                                 ContraseniaUsuario = leer.GetString(2),
-                                Id_Rol = leer.GetInt32(3),
+                                IdRol = leer.GetInt32(3),
                                 EstadoUsuario = leer.GetBoolean(4)
                             };
                             listaUsuarios.Add(DatosUsuarios);
@@ -115,6 +116,40 @@ namespace CapaDatos.UsuarioSistema
             catch (Exception ex)
             {
                 Console.WriteLine("Ocurrio un error." + ex.Message);
+            }
+        }
+
+        public string recuperarContrasenia(string userRequesting)
+        {
+            using (SqlConnection conex = new SqlConnection(Cd_Conexion._rutaBaseDatos))
+            {
+                conex.Open();
+                using (SqlCommand command = new SqlCommand("SP_RecuperarContrasenia", conex))
+                {
+                    command.Parameters.AddWithValue("@user", userRequesting);
+                    command.Parameters.AddWithValue("@mail", userRequesting);
+                    command.CommandType = CommandType.StoredProcedure;
+                    SqlDataReader reader = command.ExecuteReader();
+                    if (reader.Read() == true)
+                    {
+                        string userName = reader.GetString(3) + ", " + reader.GetString(4);
+                        string userMail = reader.GetString(6);
+                        string accountPassword = reader.GetString(2);
+                        var mailService = new Cd_RecuperarContrasenia();
+                        mailService.sendMail(
+                          subject: "SYSTEM: Password recovery request",
+                          body: "Hi, " + userName + "\nYou Requested to Recover your password.\n" +
+                          "your current password is: " + accountPassword +
+                          "\nHowever, we ask that you change your password inmediately once you enter the system.",
+                          mail: userMail
+                          );
+                        return "Hi, " + userName + "\nYou Requested to Recover your password.\n" +
+                          "Please check your mail: " + userMail +
+                          "\nHowever, we ask that you change your password inmediately once you enter the system.";
+                    }
+                    else
+                        return "Sorry, you do not have an account with that mail or username";
+                }
             }
         }
     }

@@ -19,6 +19,15 @@
             EstadoUsuario = true;
         }
 
+        public Ce_Usuario(string NombreUsuario, string ContraseniaUsuario, int IdRol)
+        {
+            Id = 0;
+            this.NombreUsuario = NombreUsuario;
+            this.ContraseniaUsuario = ContraseniaUsuario;
+            this.IdRol = IdRol;
+            EstadoUsuario = true;
+        }
+
         public Ce_Usuario(string NombreUsuario, string CorreoElectronico, string ContraseniaUsuario, int IdRol)
         {
             Id = 0;

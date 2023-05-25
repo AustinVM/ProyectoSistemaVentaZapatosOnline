@@ -15,9 +15,9 @@ namespace CapaDatos
                 using (SqlCommand cmd = new SqlCommand("SP_AgregarMunicipio", conex))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@nombre", AgregarMunicipio.nombre);
-                    cmd.Parameters.AddWithValue("@id_Departamento", AgregarMunicipio.id_Departamento);
-                    cmd.Parameters.AddWithValue("@estado", AgregarMunicipio.estado);
+                    cmd.Parameters.AddWithValue("@Nombre", AgregarMunicipio.Nombre);
+                    cmd.Parameters.AddWithValue("@IdDepartamento", AgregarMunicipio.IdDepartamento);
+                    cmd.Parameters.AddWithValue("@Estado", AgregarMunicipio.Estado);
                     cmd.ExecuteNonQuery();
                 }
             }
@@ -32,7 +32,7 @@ namespace CapaDatos
                 using (SqlCommand cmd = new SqlCommand("SP_ConsultarMunicipio", conex))
                 {
                     SqlDataReader dr = cmd.ExecuteReader();
-                    cmd.Parameters.AddWithValue("@id_Departamento", ConsultarMunicipio.id_Departamento);
+                    cmd.Parameters.AddWithValue("@IdDepartamento", ConsultarMunicipio.IdDepartamento);
                     dt.Load(dr);
                 }
             }
@@ -47,9 +47,9 @@ namespace CapaDatos
                 using (SqlCommand cmd = new SqlCommand("SP_ActualizarMunicipio", conex))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@id", ActualizarMunicipio.id);
-                    cmd.Parameters.AddWithValue("@nombre", ActualizarMunicipio.nombre);
-                    cmd.Parameters.AddWithValue("@estado", ActualizarMunicipio.estado);
+                    cmd.Parameters.AddWithValue("@Id", ActualizarMunicipio.Id);
+                    cmd.Parameters.AddWithValue("@Nombre", ActualizarMunicipio.Nombre);
+                    cmd.Parameters.AddWithValue("@Estado", ActualizarMunicipio.Estado);
                     cmd.ExecuteNonQuery();
                 }
             }
@@ -63,7 +63,7 @@ namespace CapaDatos
                 using (SqlCommand cmd = new SqlCommand("SP_EliminarMunicipio", conex))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@id", EliminarMunicipio.id);
+                    cmd.Parameters.AddWithValue("@Id", EliminarMunicipio.Id);
                     cmd.ExecuteNonQuery();
                 }
             }

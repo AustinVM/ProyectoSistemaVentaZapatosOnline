@@ -12,11 +12,11 @@ namespace CapaDatos
             using (SqlConnection conex = new SqlConnection(Cd_Conexion._rutaBaseDatos))
             {
                 conex.Open();
-                using (SqlCommand cmd = new SqlCommand("AgregarDepartamento", conex))
+                using (SqlCommand cmd = new SqlCommand("SP_AgregarDepartamento", conex))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@nombre", AgregarDepartamento.nombre);
-                    cmd.Parameters.AddWithValue("@estado", AgregarDepartamento.estado);
+                    cmd.Parameters.AddWithValue("@Nombre", AgregarDepartamento.Nombre);
+                    cmd.Parameters.AddWithValue("@Estado", AgregarDepartamento.Estado);
                     cmd.ExecuteNonQuery();
                 }
             }
@@ -45,9 +45,9 @@ namespace CapaDatos
                 using (SqlCommand cmd = new SqlCommand("SP_AggDepartamento", conex))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@id", ActualizarDepartamento.id);
-                    cmd.Parameters.AddWithValue("@nombre", ActualizarDepartamento.nombre);
-                    cmd.Parameters.AddWithValue("@estado", ActualizarDepartamento.estado);
+                    cmd.Parameters.AddWithValue("@Id", ActualizarDepartamento.Id);
+                    cmd.Parameters.AddWithValue("@Nombre", ActualizarDepartamento.Nombre);
+                    cmd.Parameters.AddWithValue("@Estado", ActualizarDepartamento.Estado);
                     cmd.ExecuteNonQuery();
                 }
             }
@@ -61,7 +61,7 @@ namespace CapaDatos
                 using (SqlCommand cmd = new SqlCommand("SP_AggDepartamento", conex))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@id", EliminarDepartamento.id);
+                    cmd.Parameters.AddWithValue("@Id", EliminarDepartamento.Id);
                     cmd.ExecuteNonQuery();
                 }
             }

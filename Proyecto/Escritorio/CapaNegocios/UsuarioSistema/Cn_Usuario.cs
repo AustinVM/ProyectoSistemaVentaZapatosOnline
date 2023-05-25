@@ -18,7 +18,7 @@ namespace CapaNegocios.UsuarioSistema
                     return false;
                 case false:
                     AgregarUsuario.ContraseniaUsuario = EncriptarContrasenia(AgregarUsuario);
-                    Cd_Usuario.AgregarUsuario(AgregarUsuario);
+                    oCd_Usuario.AgregarUsuario(AgregarUsuario);
                     return true;
             }
         }
@@ -42,7 +42,7 @@ namespace CapaNegocios.UsuarioSistema
             ValidarUsuario.ContraseniaUsuario = EncriptarContrasenia(ValidarUsuario);
 
             var Consulta = from d in oCd_Usuario.ConsultarUsuario()
-                           where d.NombreUsuario == ValidarUsuario.NombreUsuario && d.ContraseniaUsuario == ValidarUsuario.ContraseniaUsuario && d.Id_Rol == ValidarUsuario.Id_Rol
+                           where d.NombreUsuario == ValidarUsuario.NombreUsuario && d.ContraseniaUsuario == ValidarUsuario.ContraseniaUsuario && d.IdRol == ValidarUsuario.IdRol
                            select d;
 
             if (Consulta.Any())
@@ -57,7 +57,7 @@ namespace CapaNegocios.UsuarioSistema
 
         public void ActualizarUsuario(Ce_Usuario ActualizarUsuario)
         {
-            Cd_Usuario.ActualizarUsuario(ActualizarUsuario);
+            oCd_Usuario.ActualizarUsuario(ActualizarUsuario);
         }
 
         public void EliminarUsuario(Ce_Usuario EliminarUsuario)

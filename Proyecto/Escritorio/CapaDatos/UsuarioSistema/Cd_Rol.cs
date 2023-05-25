@@ -17,9 +17,9 @@ namespace CapaDatos.UsuarioSistema
                     using (SqlCommand cmd = new SqlCommand("SP_AgregarRol", conex))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
-                        cmd.Parameters.AddWithValue("@id", AgregarRol.idRol);
-                        cmd.Parameters.AddWithValue("@nombre", AgregarRol.nombreRol);
-                        cmd.Parameters.AddWithValue("@estado", AgregarRol.estadoRol);
+                        cmd.Parameters.AddWithValue("@Id", AgregarRol.Id);
+                        cmd.Parameters.AddWithValue("@Nombre", AgregarRol.Nombre);
+                        cmd.Parameters.AddWithValue("@Estado", AgregarRol.Estado);
                         cmd.ExecuteNonQuery();
                     }
                 }
@@ -71,9 +71,9 @@ namespace CapaDatos.UsuarioSistema
                     using (SqlCommand cmd = new SqlCommand("SP_ActualizarRol", conex))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
-                        cmd.Parameters.AddWithValue("@id", ActualizarRol.idRol);
-                        cmd.Parameters.AddWithValue("@nombre", ActualizarRol.nombreRol);
-                        cmd.Parameters.AddWithValue("@estado", ActualizarRol.estadoRol);
+                        cmd.Parameters.AddWithValue("@Id", ActualizarRol.Id);
+                        cmd.Parameters.AddWithValue("@Nombre", ActualizarRol.Nombre);
+                        cmd.Parameters.AddWithValue("@Estado", ActualizarRol.Estado);
                         cmd.ExecuteNonQuery();
                     }
                 }
@@ -98,7 +98,7 @@ namespace CapaDatos.UsuarioSistema
                     using (SqlCommand cmd = new SqlCommand("SP_EliminarRol", conex))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
-                        cmd.Parameters.AddWithValue("@id", EliminarRol.idRol);
+                        cmd.Parameters.AddWithValue("@id", EliminarRol.Id);
                         cmd.ExecuteNonQuery();
                     }
                 }

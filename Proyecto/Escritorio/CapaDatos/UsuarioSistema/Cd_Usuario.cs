@@ -98,7 +98,7 @@ namespace CapaDatos.UsuarioSistema
             }
         }
 
-        public static void EliminarUsuario(Ce_Usuario EliminarUsuario)
+        public void EliminarUsuario(Ce_Usuario EliminarUsuario)
         {
             using SqlConnection conex = new(Cd_Conexion._rutaBaseDatos);
             try
@@ -119,7 +119,11 @@ namespace CapaDatos.UsuarioSistema
             }
         }
 
+<<<<<<< HEAD
         public string recuperarContrasenia(string userRequesting, string nuevaContrasenia)
+=======
+        public async Task<string> EnviarCorreoRecuperacion(string userRequesting, string nuevaContrasenia)
+>>>>>>> eefe53db1e526782590a6af49cf45b8c996d982d
         {
             using (SqlConnection conex = new SqlConnection(Cd_Conexion._rutaBaseDatos))
             {
@@ -130,11 +134,12 @@ namespace CapaDatos.UsuarioSistema
                     command.Parameters.AddWithValue("@mail", userRequesting);
                     command.CommandType = CommandType.StoredProcedure;
                     SqlDataReader reader = command.ExecuteReader();
-                    if (reader.Read() == true)
+                    if (reader.Read())
                     {
                         string userName = reader.GetString(3) + ", " + reader.GetString(4);
                         string userMail = reader.GetString(6);
                         var mailService = new Cd_RecuperarContrasenia();
+<<<<<<< HEAD
                         mailService.sendMail(
                           subject: "SYSTEM: Password recovery request",
                           body: "Hi, " + userName + "\nYou Requested to Recover your password.\n" +
@@ -142,12 +147,23 @@ namespace CapaDatos.UsuarioSistema
                           "\nHowever, we ask that you change your password inmediately once you enter the system.",
                           mail: userMail
                           );
+=======
+                        await mailService.EnviarCorreoRecuperacion(
+                              subject: "SYSTEM: Password recovery request",
+                              body: "Hi, " + userName + "\nYou Requested to Recover your password.\n" +
+                                  "your current password is: " + nuevaContrasenia +
+                                  "\nHowever, we ask that you change your password immediately once you enter the system.",
+                              mail: userMail
+                        );
+>>>>>>> eefe53db1e526782590a6af49cf45b8c996d982d
                         return "Hi, " + userName + "\nYou Requested to Recover your password.\n" +
-                          "Please check your mail: " + userMail +
-                          "\nHowever, we ask that you change your password inmediately once you enter the system.";
+                               "Please check your mail: " + userMail +
+                               "\nHowever, we ask that you change your password immediately once you enter the system.";
                     }
                     else
+                    {
                         return "Sorry, you do not have an account with that mail or username";
+                    }
                 }
             }
         }

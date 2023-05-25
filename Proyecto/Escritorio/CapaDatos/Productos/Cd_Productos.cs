@@ -26,7 +26,7 @@ namespace CapaDatos.Productos
                 }
             }
         }
-        
+
         public DataTable ConsultarProductos()
         {
             DataTable tabla = new DataTable();

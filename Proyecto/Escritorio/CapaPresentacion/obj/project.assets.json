@@ -534,11 +534,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaPresentacion\\CapaPresentacion.csproj",
       "projectName": "CapaPresentacion",
       "projectPath": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaPresentacion\\CapaPresentacion.csproj",
       "packagesPath": "C:\\Users\\Sena CSET\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaPresentacion\\obj\\",
+=======
+      "projectUniqueName": "D:\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaPresentacion\\CapaPresentacion.csproj",
+      "projectName": "CapaPresentacion",
+      "projectPath": "D:\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaPresentacion\\CapaPresentacion.csproj",
+      "packagesPath": "C:\\Users\\Sena CSET\\.nuget\\packages\\",
+      "outputPath": "D:\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaPresentacion\\obj\\",
+>>>>>>> eefe53db1e526782590a6af49cf45b8c996d982d
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sena CSET\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -555,11 +563,19 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj": {
               "projectPath": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj"
             },
             "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaNegocios\\CapaNegocios.csproj": {
               "projectPath": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaNegocios\\CapaNegocios.csproj"
+=======
+            "D:\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "D:\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj"
+            },
+            "D:\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaNegocios\\CapaNegocios.csproj": {
+              "projectPath": "D:\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaNegocios\\CapaNegocios.csproj"
+>>>>>>> eefe53db1e526782590a6af49cf45b8c996d982d
             }
           }
         }
@@ -598,7 +614,11 @@
             "privateAssets": "none"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+>>>>>>> eefe53db1e526782590a6af49cf45b8c996d982d
       }
     }
   }

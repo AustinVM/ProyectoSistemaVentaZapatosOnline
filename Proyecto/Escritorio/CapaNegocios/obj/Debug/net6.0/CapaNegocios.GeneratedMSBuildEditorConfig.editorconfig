@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CapaNegocios
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Sena CSET\Documents\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\
+=======
+build_property.ProjectDir = D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\
+>>>>>>> eefe53db1e526782590a6af49cf45b8c996d982d

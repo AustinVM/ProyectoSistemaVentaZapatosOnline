@@ -1,6 +1,7 @@
 ﻿using CapaEntidades.UsuarioSistema;
 using CapaNegocios.UsuarioSistema;
 using CapaPresentacion.Global;
+using CapaPresentacion.UsuarioSistema.RecuperarContraseña;
 
 namespace CapaPresentacion
 {
@@ -106,7 +107,8 @@ namespace CapaPresentacion
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            FrmRecuperarContrasenia lol = new FrmRecuperarContrasenia();
+            lol.ShowDialog();
         }
     }
 }

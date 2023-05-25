@@ -1,6 +1,5 @@
 ﻿using CapaDatos.UsuarioSistema;
 using CapaEntidades.UsuarioSistema;
-using System.Data;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -12,47 +11,32 @@ namespace CapaNegocios.UsuarioSistema
 
         public bool AgregarUsuario(Ce_Usuario AgregarUsuario)
         {
-            switch (ConsultarUsuario(AgregarUsuario))
+            if (ConsultarUsuario(AgregarUsuario))
             {
-                case true:
-                    return false;
-                case false:
-                    AgregarUsuario.ContraseniaUsuario = EncriptarContrasenia(AgregarUsuario);
-                    oCd_Usuario.AgregarUsuario(AgregarUsuario);
-                    return true;
+                return false;
+            }
+            else
+            {
+                string Contra = AgregarUsuario.ContraseniaUsuario;
+                Contra = EncriptarContrasenia(Contra);
+                AgregarUsuario.ContraseniaUsuario = Contra;
+                oCd_Usuario.AgregarUsuario(AgregarUsuario);
+                return true;
             }
         }
 
         public bool ConsultarUsuario(Ce_Usuario ConsultarUsuario)
         {
-            var Consulta = from d in oCd_Usuario.ConsultarUsuario() where d.NombreUsuario == ConsultarUsuario.NombreUsuario select d;
-
-            if (Consulta.Any())
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return oCd_Usuario.ConsultarUsuario().Any(d => d.NombreUsuario == ConsultarUsuario.NombreUsuario);
         }
 
         public bool ValidarUsuario(Ce_Usuario ValidarUsuario)
         {
-            ValidarUsuario.ContraseniaUsuario = EncriptarContrasenia(ValidarUsuario);
+            string Contra = ValidarUsuario.ContraseniaUsuario;
+            Contra = EncriptarContrasenia(Contra);
+            ValidarUsuario.ContraseniaUsuario = Contra;
 
-            var Consulta = from d in oCd_Usuario.ConsultarUsuario()
-                           where d.NombreUsuario == ValidarUsuario.NombreUsuario && d.ContraseniaUsuario == ValidarUsuario.ContraseniaUsuario && d.IdRol == ValidarUsuario.IdRol
-                           select d;
-
-            if (Consulta.Any())
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return oCd_Usuario.ConsultarUsuario().Any(d => d.NombreUsuario == ValidarUsuario.NombreUsuario && d.ContraseniaUsuario == ValidarUsuario.ContraseniaUsuario && d.IdRol == ValidarUsuario.IdRol);
         }
 
         public void ActualizarUsuario(Ce_Usuario ActualizarUsuario)
@@ -62,14 +46,14 @@ namespace CapaNegocios.UsuarioSistema
 
         public void EliminarUsuario(Ce_Usuario EliminarUsuario)
         {
-            Cd_Usuario.EliminarUsuario(EliminarUsuario);
+            oCd_Usuario.EliminarUsuario(EliminarUsuario);
         }
 
-        private static string EncriptarContrasenia(Ce_Usuario oCe_Usuario)
+        private static string EncriptarContrasenia(string ContraseniaNueva)
         {
             using (SHA256 sha256Hash = SHA256.Create())
             {
-                byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(oCe_Usuario.ContraseniaUsuario));
+                byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(ContraseniaNueva));
                 StringBuilder builder = new StringBuilder();
                 for (int i = 0; i < bytes.Length; i++)
                 {
@@ -78,5 +62,40 @@ namespace CapaNegocios.UsuarioSistema
                 return builder.ToString();
             }
         }
+
+        public async Task recuperarContrasenia(string userRequesting)
+        {
+            string ContraseniaNueva = await GenerarContraseniaAleatoria();
+            string ContraseniaNuevaEncriptada = EncriptarContrasenia(ContraseniaNueva);
+            await oCd_Usuario.EnviarCorreoRecuperacion(userRequesting, ContraseniaNueva);
+        }
+
+        public async Task<string> GeneratePasswordAsync(string ContraseniaNueva) // Metodo que encripta la contraseña alatoria generada del metodo "GenerarContraseniaAleatoria()"
+        {
+            // Aplicar hash a la contraseña para mayor seguridad (opcional)
+            string hashedPassword = await Task.Run(() => EncriptarContrasenia(ContraseniaNueva));
+
+            return hashedPassword;
+        } // Fin del metodo que encripta la contraseña alatoria generada del metodo "GenerarContraseniaAleatoria()"
+
+        private async Task<string> GenerarContraseniaAleatoria() // Metodo que genera una cadena aleatoria de caracteres para la contraseña
+        {
+            const string validChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()";
+            StringBuilder passwordBuilder = new StringBuilder();
+            RandomNumberGenerator rng = RandomNumberGenerator.Create();
+            byte[] randomBytes = new byte[10];
+
+            await Task.Run(() =>
+            {
+                rng.GetBytes(randomBytes);
+                foreach (byte b in randomBytes)
+                {
+                    int randomIndex = b % validChars.Length;
+                    passwordBuilder.Append(validChars[randomIndex]);
+                }
+            });
+
+            return passwordBuilder.ToString();
+        } // Fin del metodo que genera una contraseña alatoria
     }
 }

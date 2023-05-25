@@ -7,29 +7,29 @@ GO
 	-- Procedimientos Almacenados
 
 CREATE PROC SP_AgregarRol
-	@nombre VARCHAR (20),
-	@estado BIT
+	@Nombre VARCHAR (20),
+	@Estado BIT
 AS
-	INSERT INTO rol (nombre, estado) VALUES (@nombre, @estado)
+	INSERT INTO Rol (Nombre, Estado) VALUES (@Nombre, @Estado)
 GO
 
 CREATE PROC SP_ConsultarRol
 AS
-	SELECT * FROM rol
+	SELECT * FROM Rol
 GO
 
 CREATE PROC SP_ActualizarRol
-	@id INT,
-	@nombre VARCHAR (20),
-	@estado BIT
+	@Id INT,
+	@Nombre VARCHAR (20),
+	@Estado BIT
 AS
-	UPDATE rol SET nombre = @nombre, estado = @estado WHERE id = @id
+	UPDATE Rol SET Nombre = @Nombre, Estado = @Estado WHERE Id = @Id
 GO
 
 CREATE PROC SP_EliminarRol
-	@id INT
+	@Id INT
 AS
-	DELETE FROM rol WHERE id = @id
+	DELETE FROM Rol WHERE Id = @Id
 GO
 
 ----------------------------------------------------------------------------------------------------------------------------------
@@ -37,47 +37,47 @@ GO
 
 
 CREATE PROC SP_AgregarUsuario
-    @usuario VARCHAR (50),
-    @contrasenia VARCHAR (100),
-    @ID_rol INT,
-    @estado BIT
+    @Usuario VARCHAR (50),
+    @Contrasenia VARCHAR (100),
+    @IdRol INT,
+    @Estado BIT
 AS
-    INSERT INTO usuario (Usuario, Contrasenia, IdRol, Estado) VALUES (@usuario, @contrasenia, @ID_rol, @estado)
+    INSERT INTO usuario (Usuario, Contrasenia, IdRol, Estado) VALUES (@Usuario, @Contrasenia, @IdRol, @Estado)
 GO
-
-/* CREATE PROC ConsultarUsuario
-    @usuario VARCHAR (50),
-    @contrasenia VARCHAR (100),
-    @ID_rol INT,
-    @estado BIT
-AS */
 
 CREATE PROC SP_ConsultarUsuario
 AS
-    SELECT * FROM usuario
+    SELECT * FROM Usuario
 GO
 
 CREATE PROC SP_ValidarUsuario
 	@Usuario VARCHAR (50),
-	@contrasenia VARCHAR (100),
-	@id_Rol INT
+	@Contrasenia VARCHAR (100),
+	@IdRol INT
 AS
-	SELECT usuario, contrasenia, IdRol FROM usuario WHERE usuario = @usuario AND Estado = 1
+	SELECT Usuario, Contrasenia, IdRol FROM Usuario WHERE Usuario = @Usuario AND Estado = 1
 GO
 
 CREATE PROC SP_ActualizarUsuario
-    @usuario VARCHAR (50),
-    @contrasenia VARCHAR (100),
-    @ID_rol INT,
-    @estado BIT
+    @Usuario VARCHAR (50),
+    @Contrasenia VARCHAR (100),
+    @IdRol INT,
+    @Estado BIT
 AS
-    UPDATE usuario SET usuario = @usuario, contrasenia = @contrasenia, IdRol = @ID_rol, Estado = @estado WHERE usuario = @usuario
+    UPDATE Usuario SET Usuario = @Usuario, Contrasenia = @Contrasenia, IdRol = @IdRrol, Estado = @Estado WHERE Usuario = @Usuario
 GO
 
 CREATE PROC SP_EliminarUsuario
-    @usuario VARCHAR (50)
+    @Usuario VARCHAR (50)
 AS
-    DELETE FROM usuario WHERE usuario = @usuario
+    DELETE FROM Usuario WHERE Usuario = @Usuario
+GO
+
+CREATE PROC SP_RecuperarContrasenia
+    @Usuario VARCHAR (50),
+    @Contrasenia VARCHAR (100)
+AS
+    UPDATE Usuario SET Contrasenia = @Contrasenia WHERE Usuario = @Usuario
 GO
 
 ----------------------------------------------------------------------------------------------------------------------------------

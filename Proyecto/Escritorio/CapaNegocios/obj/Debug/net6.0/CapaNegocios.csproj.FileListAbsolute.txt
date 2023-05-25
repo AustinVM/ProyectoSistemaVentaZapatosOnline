@@ -185,3 +185,20 @@ C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyec
 C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
 C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
 C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.deps.json
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.pdb
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaDatos.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaEntidades.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaDatos.pdb
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaEntidades.pdb
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.AssemblyReference.cache
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfoInputs.cache
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfo.cs
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CoreCompileInputs.cache
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CopyComplete
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll

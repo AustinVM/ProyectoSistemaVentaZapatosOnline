@@ -163,3 +163,18 @@ C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyec
 C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\obj\Debug\net6.0\refint\CapaDatos.dll
 C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\obj\Debug\net6.0\CapaDatos.pdb
 C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\obj\Debug\net6.0\ref\CapaDatos.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\bin\Debug\net6.0\CapaDatos.deps.json
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\bin\Debug\net6.0\CapaDatos.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\bin\Debug\net6.0\CapaDatos.pdb
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\bin\Debug\net6.0\CapaEntidades.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\bin\Debug\net6.0\CapaEntidades.pdb
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.AssemblyReference.cache
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\obj\Debug\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfoInputs.cache
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfo.cs
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.CopyComplete
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\obj\Debug\net6.0\CapaDatos.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\obj\Debug\net6.0\refint\CapaDatos.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\obj\Debug\net6.0\CapaDatos.pdb
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaDatos\obj\Debug\net6.0\ref\CapaDatos.dll

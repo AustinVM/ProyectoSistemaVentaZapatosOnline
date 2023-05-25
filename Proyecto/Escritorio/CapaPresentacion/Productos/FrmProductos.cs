@@ -85,7 +85,13 @@ namespace CapaPresentacion.Productos
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                TxtRuta.Text = openFileDialog1.FileName;
+                byte[] data = File.ReadAllBytes(openFileDialog1.FileName);
+                Image imag;
+                using (MemoryStream ms = new MemoryStream(data))
+                {
+                    imag = Image.FromStream(ms);
+                }
+                PbImagenProducto.Image = imag;
             }
         }
 

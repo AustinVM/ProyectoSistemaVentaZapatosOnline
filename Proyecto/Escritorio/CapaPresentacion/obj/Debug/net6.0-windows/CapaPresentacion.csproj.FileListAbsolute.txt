@@ -364,3 +364,38 @@ C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyec
 C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\ref\CapaPresentacion.dll
 C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Productos.FrmProductos.resources
 C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.UsuarioSistema.RecuperarContraseña.FrmRecuperarContrasenia.resources
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.exe
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.deps.json
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.runtimeconfig.json
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.pdb
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\CapaDatos.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\CapaEntidades.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\CapaNegocios.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\CapaEntidades.pdb
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\CapaNegocios.pdb
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\bin\Debug\net6.0-windows\CapaDatos.pdb
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.AssemblyReference.cache
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Productos.FrmProductos.resources
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Properties.Resources.resources
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.FrmLogin.resources
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.FrmMenuPrincipal.resources
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.UsuarioSistema.Frm_Crear_Usuario.resources
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.UsuarioSistema.RecuperarContraseña.FrmRecuperarContrasenia.resources
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.GenerateResource.cache
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.AssemblyInfoInputs.cache
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.AssemblyInfo.cs
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.CopyComplete
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\refint\CapaPresentacion.dll
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.pdb
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.genruntimeconfig.cache
+D:\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaPresentacion\obj\Debug\net6.0-windows\ref\CapaPresentacion.dll

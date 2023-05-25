@@ -2,8 +2,15 @@
 {
     public class Ce_Rol
     {
-        public int idRol { get; set; }
-        public string? nombreRol { get; set; }
-        public bool estadoRol { get; set; }
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public bool Estado { get; set; }
+
+        public Ce_Rol()
+        {
+            Id = 0;
+            Nombre = "";
+            Estado = true;
+        }
     }
 }

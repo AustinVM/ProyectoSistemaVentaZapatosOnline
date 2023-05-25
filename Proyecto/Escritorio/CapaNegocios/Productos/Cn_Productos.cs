@@ -1,11 +1,6 @@
 ﻿using CapaDatos.Productos;
 using CapaEntidades.Productos;
-using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CapaNegocios.Productos
 {
@@ -24,10 +19,10 @@ namespace CapaNegocios.Productos
 
         public DataTable ConsultarProducto()
         {
-            DataTable dt =  oCd_Productos.ConsultarProductos();
+            DataTable dt = oCd_Productos.ConsultarProductos();
 
             return dt;
         }
     }
-     
+
 }

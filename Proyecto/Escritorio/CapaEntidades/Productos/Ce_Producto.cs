@@ -8,9 +8,8 @@
         public int IdColeccion { get; set; }
         public int IdMaterial { get; set; }
         public int IdTipoCalzado { get; set; }
+        public byte[] ImagenProducto { get; set; }
         public bool Estado { get; set; }
-
-        public byte[] ImagenProducto { get; set; }  
 
 
         public Ce_Producto()
@@ -22,8 +21,7 @@
             IdMaterial = 0;
             IdTipoCalzado = 0;
             Estado = true;
-           
-        }
 
+        }
     }
 }

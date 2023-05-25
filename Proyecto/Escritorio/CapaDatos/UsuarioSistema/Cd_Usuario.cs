@@ -7,65 +7,73 @@ namespace CapaDatos.UsuarioSistema
 {
     public class Cd_Usuario
     {
-        public static void AgregarUsuario(Ce_Usuario AgregarUsuario)
+        public void AgregarUsuario(Ce_Usuario AgregarUsuario)
         {
-            using SqlConnection conex = new(Cd_Conexion._rutaBaseDatos);
-            try
+            using (SqlConnection conex = new(Cd_Conexion._rutaBaseDatos))
             {
-                conex.Open();
-                using SqlCommand cmd = new("SP_AgregarUsuario", conex);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@nombre", AgregarUsuario.NombreUsuario);
-                cmd.Parameters.AddWithValue("@contrasenia", AgregarUsuario.ContraseniaUsuario);
-                cmd.Parameters.AddWithValue("@ID_rol", AgregarUsuario.Id_Rol);
-                cmd.Parameters.AddWithValue("@estado", AgregarUsuario.EstadoUsuario);
-                cmd.ExecuteNonQuery();
-            }
-            catch (SqlException SqlEx)
-            {
-                Console.WriteLine("Ocurrio un error con la base de datos." + SqlEx.Message);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Ocurrio un error." + ex.Message);
+                try
+                {
+                    conex.Open();
+                    using (SqlCommand cmd = new("SP_AgregarUsuario", conex))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@Nombre", AgregarUsuario.NombreUsuario);
+                        cmd.Parameters.AddWithValue("@Contrasenia", AgregarUsuario.ContraseniaUsuario);
+                        cmd.Parameters.AddWithValue("@IdRol", AgregarUsuario.Id_Rol);
+                        cmd.Parameters.AddWithValue("@Estado", AgregarUsuario.EstadoUsuario);
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+                catch (SqlException SqlEx)
+                {
+                    Console.WriteLine("Ocurrio un error con la base de datos." + SqlEx.Message);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Ocurrio un error." + ex.Message);
+                }
             }
         }
 
         public List<Ce_Usuario> ConsultarUsuario()
         {
             List<Ce_Usuario> listaUsuarios = new();
-            using SqlConnection conex = new(Cd_Conexion._rutaBaseDatos);
-            try
+            using (SqlConnection conex = new(Cd_Conexion._rutaBaseDatos))
             {
-                conex.Open();
-                using SqlCommand cmd = new("SP_ConsultarUsuario", conex);
-                cmd.CommandType = CommandType.StoredProcedure;
-                SqlDataReader leer = cmd.ExecuteReader();
-                while (leer.Read())
+                try
                 {
-                    Ce_Usuario DatosUsuarios = new()
+                    conex.Open();
+                    using (SqlCommand cmd = new("SP_ConsultarUsuario", conex))
                     {
-                        Id = leer.GetInt32(0),
-                        NombreUsuario = leer.GetString(1),
-                        ContraseniaUsuario = leer.GetString(2),
-                        Id_Rol = leer.GetInt32(3),
-                        EstadoUsuario = leer.GetBoolean(4)
-                    };
-                    listaUsuarios.Add(DatosUsuarios);
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        SqlDataReader leer = cmd.ExecuteReader();
+                        while (leer.Read())
+                        {
+                            Ce_Usuario DatosUsuarios = new()
+                            {
+                                Id = leer.GetInt32(0),
+                                NombreUsuario = leer.GetString(1),
+                                ContraseniaUsuario = leer.GetString(2),
+                                Id_Rol = leer.GetInt32(3),
+                                EstadoUsuario = leer.GetBoolean(4)
+                            };
+                            listaUsuarios.Add(DatosUsuarios);
+                        }
+                    }
                 }
-            }
-            catch (SqlException SqlEx)
-            {
-                Console.WriteLine("Ocurrio un error con la base de datos." + SqlEx.Message);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Ocurrio un error." + ex.Message);
+                catch (SqlException SqlEx)
+                {
+                    Console.WriteLine("Ocurrio un error con la base de datos." + SqlEx.Message);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Ocurrio un error." + ex.Message);
+                }
             }
             return listaUsuarios;
         }
 
-        public static void ActualizarUsuario(Ce_Usuario ActualizarUsuario)
+        public void ActualizarUsuario(Ce_Usuario ActualizarUsuario)
         {
             using SqlConnection conex = new(Cd_Conexion._rutaBaseDatos);
             try

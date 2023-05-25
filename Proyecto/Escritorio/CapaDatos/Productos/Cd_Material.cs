@@ -12,10 +12,9 @@ namespace CapaDatos.Productos
 
             using (SqlConnection conex = new SqlConnection(Cd_Conexion._rutaBaseDatos))
             {
-
+                conex.Open();
                 using (SqlCommand cmd = new SqlCommand("SP_ConsultarMaterial", conex))
                 {
-                    conex.Open();
                     cmd.CommandType = CommandType.StoredProcedure;
                     SqlDataReader leer = cmd.ExecuteReader();
                     tabla.Load(leer);
@@ -23,7 +22,6 @@ namespace CapaDatos.Productos
                 }
             }
             return tabla;
-
         }
     }
 }

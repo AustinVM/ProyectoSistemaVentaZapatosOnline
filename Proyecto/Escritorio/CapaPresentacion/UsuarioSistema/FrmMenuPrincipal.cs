@@ -53,7 +53,7 @@ namespace CapaPresentacion
 
         private void BtnProductos_Click(object sender, EventArgs e)
         {
-            Abrir(new Frm_Productos());
+            Abrir(new FrmProductos());
         }
     }
 }

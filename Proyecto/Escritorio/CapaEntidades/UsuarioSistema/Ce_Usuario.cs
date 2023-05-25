@@ -4,34 +4,38 @@
     {
         public int Id { get; set; }
         public string NombreUsuario { get; set; }
+        public string CorreoElectronico { get; set; }
         public string ContraseniaUsuario { get; set; }
-        public int Id_Rol { get; set; }
+        public int IdRol { get; set; }
         public bool EstadoUsuario { get; set; }
 
         public Ce_Usuario()
         {
             Id = 0;
             NombreUsuario = "";
+            CorreoElectronico = "";
             ContraseniaUsuario = "";
-            Id_Rol = 0;
+            IdRol = 0;
             EstadoUsuario = true;
         }
 
-        public Ce_Usuario(string NombreUsuario, string ContraseniaUsuario, int Id_Rol)
+        public Ce_Usuario(string NombreUsuario, string CorreoElectronico, string ContraseniaUsuario, int IdRol)
         {
             Id = 0;
             this.NombreUsuario = NombreUsuario;
+            this.CorreoElectronico = CorreoElectronico;
             this.ContraseniaUsuario = ContraseniaUsuario;
-            this.Id_Rol = Id_Rol;
+            this.IdRol = IdRol;
             EstadoUsuario = true;
         }
 
-        public Ce_Usuario(string NombreUsuario, string ContraseniaUsuario, int Id_Rol, bool EstadoUsuario)
+        public Ce_Usuario(string NombreUsuario, string CorreoElectronico, string ContraseniaUsuario, int IdRol, bool EstadoUsuario)
         {
             Id = 0;
             this.NombreUsuario = NombreUsuario;
+            this.CorreoElectronico = CorreoElectronico;
             this.ContraseniaUsuario = ContraseniaUsuario;
-            this.Id_Rol = Id_Rol;
+            this.IdRol = IdRol;
             this.EstadoUsuario = EstadoUsuario;
         }
     }

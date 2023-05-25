@@ -15,8 +15,8 @@ namespace CapaDatos.Productos
                 using (SqlCommand cmd = new SqlCommand("AgregarDepartamento", conex))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@nombre", AgregarColor.Nombre);
-                    cmd.Parameters.AddWithValue("@estado", AgregarColor.Estado);
+                    cmd.Parameters.AddWithValue("@Nombre", AgregarColor.Nombre);
+                    cmd.Parameters.AddWithValue("@Estado", AgregarColor.Estado);
                     cmd.ExecuteNonQuery();
                 }
             }
@@ -28,7 +28,6 @@ namespace CapaDatos.Productos
 
             using (SqlConnection conex = new SqlConnection(Cd_Conexion._rutaBaseDatos))
             {
-
                 conex.Open();
                 using (SqlCommand cmd = new SqlCommand("SP_ConsultarColor", conex))
                 {

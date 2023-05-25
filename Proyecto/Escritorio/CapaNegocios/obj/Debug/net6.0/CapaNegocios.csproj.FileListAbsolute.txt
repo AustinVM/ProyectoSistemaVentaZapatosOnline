@@ -168,3 +168,20 @@ C:\Users\Sena CSET\Documents\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline
 C:\Users\Sena CSET\Documents\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
 C:\Users\Sena CSET\Documents\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
 C:\Users\Sena CSET\Documents\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.deps.json
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.dll
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaNegocios.pdb
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaEntidades.dll
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\bin\Debug\net6.0\CapaEntidades.pdb
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.AssemblyReference.cache
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfoInputs.cache
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfo.cs
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CopyComplete
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.dll
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
+C:\Users\villa\Videos\Nueva carpeta (2)\ProyectoSistemaVentaZapatosOnline\Proyecto\Escritorio\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll

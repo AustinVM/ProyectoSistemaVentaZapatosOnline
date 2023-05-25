@@ -64,5 +64,19 @@ namespace CapaDatos.Productos
                 }
             }
         }
+
+        public void EliminarProducto(Ce_Producto EditarProducto)
+        {
+            using (SqlConnection conex = new(Cd_Conexion._rutaBaseDatos))
+            {
+                conex.Open();
+                using (SqlCommand cmd = new("SP_EliminarProducto", conex))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@Id", EditarProducto.Id);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }

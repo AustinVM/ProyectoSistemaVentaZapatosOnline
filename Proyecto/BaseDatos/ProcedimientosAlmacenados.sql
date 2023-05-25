@@ -447,6 +447,10 @@ GO
 -----------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
+
+select*from Producto
+
+
 CREATE PROC SP_AgregarProducto
     @NombreProducto VARCHAR (50),
     @IdColor INT ,
@@ -459,7 +463,7 @@ AS
     INSERT INTO producto (NombreProducto, IdColor, IdColeccion, IdMaterial, IdTipoCalzado, ImagenProducto, Estado) VALUES (@NombreProducto, @IdColor, @IdColeccion, @IdMaterial, @IdTipoCalzado, @ImagenProducto, @Estado)
 GO
 
-CREATE PROC SP_EditarProducto
+CREATE PROC SP_ActualizarProducto
 	@Id INT,
     @NombreProducto VARCHAR (50),
     @IdColor INT ,
@@ -469,7 +473,14 @@ CREATE PROC SP_EditarProducto
 	@ImagenProducto VARBINARY(MAX),
 	@Estado BIT
 AS
-	UPDATE Producto SET NombreProducto = @NombreProducto, IdColor = @IdColor, IdColeccion = @IdColeccion, IdMaterial = @IdMaterial, IdTipoCalzado = @IdTipoCalzado, ImagenProducto = @ImagenProducto, Estado = @Estado
+	UPDATE Producto SET NombreProducto = @NombreProducto, IdColor = @IdColor, IdColeccion = @IdColeccion, IdMaterial = @IdMaterial, IdTipoCalzado = @IdTipoCalzado, ImagenProducto = @ImagenProducto, Estado = @Estado where Id=@Id
+GO
+Drop proc Sp_ActualizarProducto
+
+CREATE PROC SP_EliminarProducto
+	@Id INT
+AS
+	delete from Producto where Id=@Id
 GO
 
 -------------------------------------------------------------------------------------------------------------------------------------

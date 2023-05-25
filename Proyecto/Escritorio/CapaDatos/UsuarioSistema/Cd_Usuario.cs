@@ -119,7 +119,7 @@ namespace CapaDatos.UsuarioSistema
             }
         }
 
-        public string recuperarContrasenia(string userRequesting)
+        public string recuperarContrasenia(string userRequesting, string nuevaContrasenia)
         {
             using (SqlConnection conex = new SqlConnection(Cd_Conexion._rutaBaseDatos))
             {
@@ -134,12 +134,11 @@ namespace CapaDatos.UsuarioSistema
                     {
                         string userName = reader.GetString(3) + ", " + reader.GetString(4);
                         string userMail = reader.GetString(6);
-                        string accountPassword = reader.GetString(2);
                         var mailService = new Cd_RecuperarContrasenia();
                         mailService.sendMail(
                           subject: "SYSTEM: Password recovery request",
                           body: "Hi, " + userName + "\nYou Requested to Recover your password.\n" +
-                          "your current password is: " + accountPassword +
+                          "your current password is: " + nuevaContrasenia +
                           "\nHowever, we ask that you change your password inmediately once you enter the system.",
                           mail: userMail
                           );

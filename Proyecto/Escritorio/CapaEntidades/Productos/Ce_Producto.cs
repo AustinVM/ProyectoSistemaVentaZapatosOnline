@@ -21,6 +21,8 @@
             IdMaterial = 0;
             IdTipoCalzado = 0;
             Estado = true;
+          
+           
 
         }
     }

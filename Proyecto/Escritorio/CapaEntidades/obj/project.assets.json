@@ -470,19 +470,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\villa\\.nuget\\packages\\": {}
+    "C:\\Users\\Sena CSET\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\villa\\Videos\\Nueva carpeta (2)\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj",
+      "projectUniqueName": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj",
       "projectName": "CapaEntidades",
-      "projectPath": "C:\\Users\\villa\\Videos\\Nueva carpeta (2)\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj",
-      "packagesPath": "C:\\Users\\villa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\villa\\Videos\\Nueva carpeta (2)\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\obj\\",
+      "projectPath": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\CapaEntidades.csproj",
+      "packagesPath": "C:\\Users\\Sena CSET\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sena CSET\\Documents\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\villa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sena CSET\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -529,16 +529,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\villa\\Videos\\Nueva carpeta (2)\\ProyectoSistemaVentaZapatosOnline\\Proyecto\\Escritorio\\CapaEntidades\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

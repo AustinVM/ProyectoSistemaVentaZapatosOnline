@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"label": "build",
+		"command": "dotnet",
+		"type": "process",
+		"args": [
+		  "build",
+		  "${workspaceFolder}/RoyalShoes/RoyalShoes.csproj"
+		],
+		"problemMatcher": "$msCompile"
+	  },
+	  {
+		"label": "publish",
+		"command": "dotnet",
+		"type": "process",
+		"args": [
+		  "publish",
+		  "${workspaceFolder}/RoyalShoes/RoyalShoes.csproj",
+		  "--output",
+		  "${workspaceFolder}/bin/Debug/net6.0/publish"
+		],
+		"problemMatcher": "$msCompile"
+	  }
+	]
+  }
+  

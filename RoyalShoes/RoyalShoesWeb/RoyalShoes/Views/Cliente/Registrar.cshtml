@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Registrar";
+}
+
+<h1>Registrar</h1>
+
+<form method="post" class="form-control-plaintext">
+    <div class="mb-3 row">
+        <label for="Documento" class="col-sm-2 col-form-label">Documento:</label>
+        <div class="col-sm-10">
+            <input type="number" class="form-control" id="Documento" name="Documento">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="Nombre" class="col-sm-2 col-form-label">Nombre:</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="Nombre" name="Nombre">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="Direccion" class="col-sm-2 col-form-label">Direccion:</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="Direccion" name="Direccion">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="Telefono" class="col-sm-2 col-form-label">Telefono:</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="Telefono" name="Telefono">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="Correo" class="col-sm-2 col-form-label">Correo:</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="Correo" name="Correo">
+        </div>
+    </div>
+    <button asp-controller="Cliente" asp-action="Registrar" type="submit" class="btn btn-success">Registrar usuario</button>
+</form>
